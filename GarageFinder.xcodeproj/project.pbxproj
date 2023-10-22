@@ -1,0 +1,1765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C10C8D3230AE450001BDDB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C10C8D2230AE450001BDDB6 /* AppDelegate.swift */; };
+		3C10C8D5230AE450001BDDB6 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C10C8D4230AE450001BDDB6 /* MapViewController.swift */; };
+		3C10C8DD230AE453001BDDB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C10C8DC230AE453001BDDB6 /* Assets.xcassets */; };
+		3C10C8E0230AE453001BDDB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C10C8DE230AE453001BDDB6 /* LaunchScreen.storyboard */; };
+		3C10C8F5230AE7D2001BDDB6 /* GarageFinderFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C10C8F3230AE7D2001BDDB6 /* GarageFinderFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C10C909231016DE001BDDB6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C10C908231016DE001BDDB6 /* MapView.swift */; };
+		3C10C944231579D2001BDDB6 /* IfceLocation.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 3C10C942231579D1001BDDB6 /* IfceLocation.gpx */; };
+		3C10C9482316A3AA001BDDB6 /* CLLocationCoordinate2D+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C10C9472316A3AA001BDDB6 /* CLLocationCoordinate2D+Extension.swift */; };
+		3C10C95F2316A828001BDDB6 /* SmartConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C10C94C2316A826001BDDB6 /* SmartConstraints.swift */; };
+		3C10C9612316A828001BDDB6 /* URLSessionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C10C9512316A828001BDDB6 /* URLSessionProvider.swift */; };
+		3C10C9622316A828001BDDB6 /* ParametersEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C10C9532316A828001BDDB6 /* ParametersEncoding.swift */; };
+		3C10C9632316A828001BDDB6 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C10C9542316A828001BDDB6 /* HTTPMethod.swift */; };
+		3C10C9642316A828001BDDB6 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C10C9552316A828001BDDB6 /* Task.swift */; };
+		3C10C9652316A828001BDDB6 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C10C9562316A828001BDDB6 /* NetworkError.swift */; };
+		3C10C9662316A828001BDDB6 /* URLSessionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C10C9582316A828001BDDB6 /* URLSessionExtension.swift */; };
+		3C10C9672316A828001BDDB6 /* URLComponentsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C10C9592316A828001BDDB6 /* URLComponentsExtension.swift */; };
+		3C10C9682316A828001BDDB6 /* URLRequestExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C10C95A2316A828001BDDB6 /* URLRequestExtension.swift */; };
+		3C10C9692316A828001BDDB6 /* CodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C10C95B2316A828001BDDB6 /* CodableExtension.swift */; };
+		3C10C96A2316A828001BDDB6 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C10C95D2316A828001BDDB6 /* Service.swift */; };
+		3C10C96D23180028001BDDB6 /* RangeLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C10C96C23180028001BDDB6 /* RangeLocation.swift */; };
+		3C10C96F23194F6B001BDDB6 /* ToolboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C10C96E23194F6B001BDDB6 /* ToolboxView.swift */; };
+		3C20C37C23311F7200182CB3 /* RatingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C20C37B23311F7200182CB3 /* RatingTableViewCell.swift */; };
+		3C20C38C233A622300182CB3 /* RentingCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C20C38B233A622300182CB3 /* RentingCounterView.swift */; };
+		3C20C38E233AAC4900182CB3 /* RentingGarageDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C20C38D233AAC4900182CB3 /* RentingGarageDelegate.swift */; };
+		3C20C390233AACE100182CB3 /* GarageRentingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C20C38F233AACE100182CB3 /* GarageRentingViewController.swift */; };
+		3C20C394233B878500182CB3 /* GarageRatingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C20C393233B878400182CB3 /* GarageRatingListViewController.swift */; };
+		3C20C39A233BAD4100182CB3 /* RentingDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C20C399233BAD4100182CB3 /* RentingDetailsViewController.swift */; };
+		3C20C39C233BB29F00182CB3 /* RentingDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C20C39B233BB29F00182CB3 /* RentingDetailsCell.swift */; };
+		3C20C3A0233CE05A00182CB3 /* RentingDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C20C39F233CE05A00182CB3 /* RentingDetailsView.swift */; };
+		3C20C3A2233E588800182CB3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C20C3A1233E588800182CB3 /* MapKit.framework */; };
+		3C2C7B3523730AF200BB3D0A /* PaddedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C55F21D23730A6200CBFDB9 /* PaddedLabel.swift */; };
+		3C38307423410F310034F315 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C20C38623351DE800182CB3 /* Comment.swift */; };
+		3C38307523410F310034F315 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C20C38223351DC000182CB3 /* Vehicle.swift */; };
+		3C383079234636BA0034F315 /* GarageAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C383078234636BA0034F315 /* GarageAnnotationView.swift */; };
+		3C38307D23478BDF0034F315 /* AdjustsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C38307C23478BDF0034F315 /* AdjustsButton.swift */; };
+		3C38308823497FFD0034F315 /* NumberFormatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C38308723497FFD0034F315 /* NumberFormatter+Extension.swift */; };
+		3C38308A234CB3160034F315 /* TrackerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C383089234CB3160034F315 /* TrackerButton.swift */; };
+		3C3830AB2350C1680034F315 /* Garage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3830A72350BEAB0034F315 /* Garage.swift */; };
+		3C3830AC2350C1680034F315 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3830A52350BE750034F315 /* Address.swift */; };
+		3C3830AD2350C1680034F315 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3830A32350BE4F0034F315 /* User.swift */; };
+		3C3830AE2350C1680034F315 /* DocumentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3830A92350C0540034F315 /* DocumentType.swift */; };
+		3C3EB810238D4C3100D4849B /* ParkingWaitingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3EB80F238D4C3100D4849B /* ParkingWaitingView.swift */; };
+		3C54CDED2385795700EFF918 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C54CDEC2385795700EFF918 /* UIView+Extension.swift */; };
+		3C54CDEF2385798F00EFF918 /* NSLayoutConstrait.Attribute+CaseIterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C54CDEE2385798F00EFF918 /* NSLayoutConstrait.Attribute+CaseIterable.swift */; };
+		3C55F214236C6FAA00CBFDB9 /* ParkingStatusDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C55F213236C6FAA00CBFDB9 /* ParkingStatusDelegate.swift */; };
+		3C55F216236C7E9200CBFDB9 /* FavoriteType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C55F215236C7E9200CBFDB9 /* FavoriteType.swift */; };
+		3C59AE1F2368772D006EC36E /* Identifier+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C59AE1D2368772D006EC36E /* Identifier+CoreDataClass.swift */; };
+		3C59AE202368772D006EC36E /* Identifier+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C59AE1E2368772D006EC36E /* Identifier+CoreDataProperties.swift */; };
+		3C59AE2223688582006EC36E /* GarageActionsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C59AE2123688582006EC36E /* GarageActionsDelegate.swift */; };
+		3C811E432326946E0075AD49 /* DetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C811E422326946E0075AD49 /* DetailsTableViewCell.swift */; };
+		3C811E452327BE130075AD49 /* GarageInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C811E442327BE130075AD49 /* GarageInfoView.swift */; };
+		3C811E472327BE2D0075AD49 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C811E462327BE2D0075AD49 /* GFButton.swift */; };
+		3C811E492327BE5B0075AD49 /* GarageGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C811E482327BE5B0075AD49 /* GarageGalleryView.swift */; };
+		3C811E4B2327BE840075AD49 /* GFTableViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C811E4A2327BE840075AD49 /* GFTableViewComponent.swift */; };
+		3C811E4F2327EA0C0075AD49 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C811E4E2327EA0C0075AD49 /* String+Extension.swift */; };
+		3C811E512327EB970075AD49 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C811E502327EB970075AD49 /* Double+Extension.swift */; };
+		3C811E5323290F680075AD49 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C811E5223290F680075AD49 /* UILabel+Extension.swift */; };
+		3C811E57232930AE0075AD49 /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C811E56232930AE0075AD49 /* GalleryCollectionViewCell.swift */; };
+		3C811E59232A71520075AD49 /* GarageGalleryDataSourceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C811E58232A71520075AD49 /* GarageGalleryDataSourceDelegate.swift */; };
+		3C811E5B232A75C90075AD49 /* CircularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C811E5A232A75C90075AD49 /* CircularButton.swift */; };
+		3C811E5D232A80460075AD49 /* GarageActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C811E5C232A80460075AD49 /* GarageActionsView.swift */; };
+		3C811E61232F025E0075AD49 /* FloatingViewPositioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C811E60232F025E0075AD49 /* FloatingViewPositioningDelegate.swift */; };
+		3C8CB13A235F279E00621BB3 /* Parking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8CB139235F279E00621BB3 /* Parking.swift */; };
+		3C8CB145236095BC00621BB3 /* Favorite+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8CB143236095BC00621BB3 /* Favorite+CoreDataProperties.swift */; };
+		3C8CB146236095BC00621BB3 /* Favorite+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8CB144236095BC00621BB3 /* Favorite+CoreDataClass.swift */; };
+		3C8CB14923609DEE00621BB3 /* GarageFinderModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C8CB14723609DEE00621BB3 /* GarageFinderModel.xcdatamodeld */; };
+		3C8CB14D2361C8CE00621BB3 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8CB14B2361C8CE00621BB3 /* CoreDataManager.swift */; };
+		3C9EE70B2386B17400B8B448 /* OptionSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9EE70A2386B17400B8B448 /* OptionSelectorViewController.swift */; };
+		3C9EE70D2386B3A300B8B448 /* OptionSelectorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9EE70C2386B3A300B8B448 /* OptionSelectorCollectionViewCell.swift */; };
+		3C9EE7102386BA9E00B8B448 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9EE70F2386BA9E00B8B448 /* SettingsViewController.swift */; };
+		3C9EE7122386BBD200B8B448 /* MapSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9EE7112386BBD200B8B448 /* MapSettingsViewController.swift */; };
+		3C9EE7152387430C00B8B448 /* SettingSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9EE7142387430C00B8B448 /* SettingSectionController.swift */; };
+		3CA20D0B231FE1DA004C9A86 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA20D0A231FE1DA004C9A86 /* UIColor+Extension.swift */; };
+		3CA20D0D232677A4004C9A86 /* GarageDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA20D0C232677A4004C9A86 /* GarageDetailsViewController.swift */; };
+		6C0C266E233BA6C1003BCD92 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0C266D233BA6C1003BCD92 /* UIViewController+Extension.swift */; };
+		6C1051E723324FA700837C04 /* ChangeScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1051E623324FA700837C04 /* ChangeScrollViewDelegate.swift */; };
+		6C1051E92332567C00837C04 /* HeaderFavTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1051E82332567C00837C04 /* HeaderFavTableView.swift */; };
+		6C13B39423704E0600F25A34 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C13B39323704E0600F25A34 /* IntroViewController.swift */; };
+		6C13B39723704E3500F25A34 /* MainIntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C13B39623704E3500F25A34 /* MainIntroView.swift */; };
+		6C13B39923704E7F00F25A34 /* FirstPageIntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C13B39823704E7F00F25A34 /* FirstPageIntroView.swift */; };
+		6C13B39B2370506E00F25A34 /* SecondPageIntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C13B39A2370506E00F25A34 /* SecondPageIntroView.swift */; };
+		6C13B39E237052F900F25A34 /* PagesIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C13B39D237052F900F25A34 /* PagesIntroViewController.swift */; };
+		6C13B3A223705FD400F25A34 /* ThirdPageIntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C13B3A123705FD400F25A34 /* ThirdPageIntroView.swift */; };
+		6C24E17823461ED9007EE981 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C24E17723461ED9007EE981 /* RatingView.swift */; };
+		6C24E17A23461F6C007EE981 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C24E17923461F6C007EE981 /* UIButton+Extension.swift */; };
+		6C24E17C23461F7B007EE981 /* UIStackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C24E17B23461F7B007EE981 /* UIStackView+Extension.swift */; };
+		6C24E17E23461F85007EE981 /* UITextView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C24E17D23461F85007EE981 /* UITextView+Extension.swift */; };
+		6C24E18023461FFF007EE981 /* RatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C24E17F23461FFF007EE981 /* RatingViewController.swift */; };
+		6C2846FC236C70DA001AB4D0 /* UpdateUserPhotoDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2846FB236C70DA001AB4D0 /* UpdateUserPhotoDelegate.swift */; };
+		6C339B272327CEEF00A376ED /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C339B262327CEEF00A376ED /* UIView+Extension.swift */; };
+		6C339B292327DBC200A376ED /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C339B282327DBC200A376ED /* CircleView.swift */; };
+		6C339B2B2327EAB300A376ED /* FloatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C339B2A2327EAB300A376ED /* FloatingView.swift */; };
+		6C371EE523673B2900EF9BE7 /* MenuTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C371EE423673B2900EF9BE7 /* MenuTableViewDataSource.swift */; };
+		6C371EE723674A2800EF9BE7 /* GarageHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C371EE623674A2800EF9BE7 /* GarageHistoryView.swift */; };
+		6C371EE923674AA700EF9BE7 /* GarageHistoryDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C371EE823674AA700EF9BE7 /* GarageHistoryDataSource.swift */; };
+		6C371EEB23674B5500EF9BE7 /* GarageHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C371EEA23674B5500EF9BE7 /* GarageHistoryViewController.swift */; };
+		6C45CA3523607F54000BDB7D /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C45CA3423607F54000BDB7D /* SignUpView.swift */; };
+		6C45CA3723607F61000BDB7D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C45CA3623607F61000BDB7D /* SignUpViewController.swift */; };
+		6C45CA3923608DA0000BDB7D /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C45CA3823608DA0000BDB7D /* UITextField+Extension.swift */; };
+		6C52C1332330087600233617 /* PlaceCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C52C1322330087600233617 /* PlaceCategory.swift */; };
+		6C57ABB023574D0C001442A6 /* AbstractGarageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C20C391233AB76700182CB3 /* AbstractGarageViewController.swift */; };
+		6C57ABB223574DE0001442A6 /* UserDefaults+Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C57ABB123574DE0001442A6 /* UserDefaults+Login.swift */; };
+		6C58990E2333C598000DA4C2 /* FavAddressColectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C58990D2333C598000DA4C2 /* FavAddressColectionDataSource.swift */; };
+		6C5899102333C92D000DA4C2 /* FloatingTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C58990F2333C92D000DA4C2 /* FloatingTableViewDataSource.swift */; };
+		6C5AD4E323157162001F14A0 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5AD4E223157162001F14A0 /* SearchResultViewController.swift */; };
+		6C5AD4E623157A5A001F14A0 /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5AD4E523157A5A001F14A0 /* SearchResultCell.swift */; };
+		6C67062F2358AC7200651C4A /* GarageAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C67062E2358AC7200651C4A /* GarageAnnotation.swift */; };
+		6C70BD77238588CD00E1FC72 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C70BD76238588CD00E1FC72 /* NotificationService.swift */; };
+		6C70BD7B238588CD00E1FC72 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6C70BD74238588CD00E1FC72 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6C7C05AD2316BB5D00FB8974 /* SearchDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7C05AC2316BB5D00FB8974 /* SearchDelegate.swift */; };
+		6C7F0AC523574C05001159A9 /* UserAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7F0AC423574C05001159A9 /* UserAuth.swift */; };
+		6C81DF5A237C430300EA3373 /* PayMethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C81DF59237C430300EA3373 /* PayMethodView.swift */; };
+		6C8B9A022364F93500EA950C /* EditFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B9A012364F93500EA950C /* EditFieldView.swift */; };
+		6C8B9A042364FA5700EA950C /* EditFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B9A032364FA5700EA950C /* EditFieldViewController.swift */; };
+		6C8B9A0A2365CFFC00EA950C /* ImageResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B9A062365CFFC00EA950C /* ImageResult.swift */; };
+		6C8B9A0B2365CFFC00EA950C /* ImagePickerTool+UIImagePickerControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B9A072365CFFC00EA950C /* ImagePickerTool+UIImagePickerControllerDelegate.swift */; };
+		6C8B9A0C2365CFFC00EA950C /* ImagePickerTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B9A082365CFFC00EA950C /* ImagePickerTool.swift */; };
+		6C8B9A0D2365CFFC00EA950C /* ImagePickerSourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B9A092365CFFC00EA950C /* ImagePickerSourceType.swift */; };
+		6C8B9A0F2365DC5A00EA950C /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B9A0E2365DC5A00EA950C /* MenuView.swift */; };
+		6C8B9A112365DC6A00EA950C /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B9A102365DC6A00EA950C /* MenuViewController.swift */; };
+		6C8B9A132365E5DC00EA950C /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B9A122365E5DC00EA950C /* UINavigationController+Extension.swift */; };
+		6C8B9A152365EB3C00EA950C /* TitleMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B9A142365EB3C00EA950C /* TitleMenuView.swift */; };
+		6C8C9A55234F5C5700071144 /* CustomCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8C9A54234F5C5700071144 /* CustomCodable.swift */; };
+		6C8F0EBF233A661A006153E4 /* NotificationName+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF43F20231FE1A800206150 /* NotificationName+Extension.swift */; };
+		6CBE7308235A5C8C0048A1DC /* UIAlertController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBE7307235A5C8C0048A1DC /* UIAlertController+Extension.swift */; };
+		6CBE730A235DDDAA0048A1DC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBE7309235DDDAA0048A1DC /* LoginView.swift */; };
+		6CBE730C235DDDB60048A1DC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBE730B235DDDB60048A1DC /* LoginViewController.swift */; };
+		6CBE731C235DFC0F0048A1DC /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C10C94F2316A828001BDDB6 /* NetworkService.swift */; };
+		6CBE731E235DFC360048A1DC /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8ACC5E2357479B00DFC585 /* Response.swift */; };
+		6CC3CF52236C4DD5003A2DFD /* FavAddressCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB1542232A6B5E002B42A1 /* FavAddressCollectionViewCell.swift */; };
+		6CC3CF53236C4DDA003A2DFD /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C07D5E22361EDE2002514FE /* Date+Extension.swift */; };
+		6CC40F17232FB25C00AD4101 /* MKMapItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC40F16232FB25C00AD4101 /* MKMapItem+Extension.swift */; };
+		6CCB1545232A6BDF002B42A1 /* FavGaragesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB1544232A6BDF002B42A1 /* FavGaragesTableViewCell.swift */; };
+		6CCB1547232A6C74002B42A1 /* FavAddressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB1546232A6C74002B42A1 /* FavAddressTableViewCell.swift */; };
+		6CD2A81B231D3F8300A4782D /* GarageFinderFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3C10C8F1230AE7D2001BDDB6 /* GarageFinderFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6CD2A81E231D3F9200A4782D /* GarageFinderFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C10C8F1230AE7D2001BDDB6 /* GarageFinderFramework.framework */; };
+		6CD62A7D236884FA00331B86 /* String+Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD62A7C236884FA00331B86 /* String+Base64.swift */; };
+		6CD62A7F2368884600331B86 /* UIImage+Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD62A7E2368884600331B86 /* UIImage+Base64.swift */; };
+		6CE30E332369ACC6002C04D7 /* CharactersLimitValidationStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE30E2B2369ACC6002C04D7 /* CharactersLimitValidationStrategy.swift */; };
+		6CE30E342369ACC6002C04D7 /* ValidationTipAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE30E2C2369ACC6002C04D7 /* ValidationTipAssistant.swift */; };
+		6CE30E352369ACC6002C04D7 /* NewPasswordValidationStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE30E2D2369ACC6002C04D7 /* NewPasswordValidationStrategy.swift */; };
+		6CE30E362369ACC6002C04D7 /* EmptyValidationStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE30E2E2369ACC6002C04D7 /* EmptyValidationStrategy.swift */; };
+		6CE30E372369ACC6002C04D7 /* ValidationStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE30E2F2369ACC6002C04D7 /* ValidationStrategy.swift */; };
+		6CE30E382369ACC6002C04D7 /* EmailValidationStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE30E302369ACC6002C04D7 /* EmailValidationStrategy.swift */; };
+		6CE30E392369ACC6002C04D7 /* FieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE30E312369ACC6002C04D7 /* FieldValidator.swift */; };
+		6CE30E3A2369ACC6002C04D7 /* CPFValidatorStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE30E322369ACC6002C04D7 /* CPFValidatorStrategy.swift */; };
+		6CE30E3D2369D104002C04D7 /* UpdateFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE30E3C2369D104002C04D7 /* UpdateFieldDelegate.swift */; };
+		6CE31B062330FBF9002AFF85 /* SearchResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE31B052330FBF9002AFF85 /* SearchResultView.swift */; };
+		6CE3881F23477FAF002458FC /* GarageRatingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE3881E23477FAF002458FC /* GarageRatingDelegate.swift */; };
+		6CF013D0238E9E13005C6AD0 /* UpdateParkingStatusDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF013CF238E9E13005C6AD0 /* UpdateParkingStatusDelegate.swift */; };
+		6CF85EFA2318072A009FEFB5 /* FloatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF85EF92318072A009FEFB5 /* FloatingViewController.swift */; };
+		6CFCC00B236C59060096033D /* FinishSignUpDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFCC00A236C59060096033D /* FinishSignUpDelegate.swift */; };
+		6CFFC7A223624E67005D8D2F /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFFC7A123624E67005D8D2F /* LoadingView.swift */; };
+		6CFFC7A52363114E005D8D2F /* TextFieldsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFFC7A42363114E005D8D2F /* TextFieldsTableView.swift */; };
+		6CFFC7A823631191005D8D2F /* TextFieldCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFFC7A723631191005D8D2F /* TextFieldCollection.swift */; };
+		6CFFC7AA236311D0005D8D2F /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFFC7A9236311D0005D8D2F /* GFTextField.swift */; };
+		6CFFC7AC2363121B005D8D2F /* TextFieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFFC7AB2363121B005D8D2F /* TextFieldType.swift */; };
+		6CFFC7AE236312EA005D8D2F /* TextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFFC7AD236312EA005D8D2F /* TextFieldCell.swift */; };
+		6CFFC7B023631DCB005D8D2F /* TextFieldsTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFFC7AF23631DCB005D8D2F /* TextFieldsTableViewDataSource.swift */; };
+		6CFFC7B4236489AA005D8D2F /* SignupHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFFC7B3236489AA005D8D2F /* SignupHeader.swift */; };
+		6CFFC7BF23649059005D8D2F /* AnyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFFC7B723649059005D8D2F /* AnyChain.swift */; };
+		6CFFC7C023649059005D8D2F /* NumberChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFFC7B823649059005D8D2F /* NumberChain.swift */; };
+		6CFFC7C123649059005D8D2F /* CharacterChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFFC7B923649059005D8D2F /* CharacterChain.swift */; };
+		6CFFC7C223649059005D8D2F /* DefaultChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFFC7BA23649059005D8D2F /* DefaultChain.swift */; };
+		6CFFC7C323649059005D8D2F /* Chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFFC7BB23649059005D8D2F /* Chain.swift */; };
+		6CFFC7C423649059005D8D2F /* ChainLimitation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFFC7BC23649059005D8D2F /* ChainLimitation.swift */; };
+		6CFFC7C523649059005D8D2F /* UITextMaskField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFFC7BD23649059005D8D2F /* UITextMaskField.swift */; };
+		6CFFC7C623649059005D8D2F /* String+isNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFFC7BE23649059005D8D2F /* String+isNumber.swift */; };
+		6CFFC7C8236497DE005D8D2F /* KeyScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFFC7C7236497DD005D8D2F /* KeyScroller.swift */; };
+		6CFFC7CA23649BE8005D8D2F /* LabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFFC7C923649BE8005D8D2F /* LabelCell.swift */; };
+		A10267E523063AB1CB2FD00A /* libPods-GarageFinder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE0B728A27EC25CBC74EFE5 /* libPods-GarageFinder.a */; };
+		D068DF6AD55BCFCCF3F29648 /* libPods-OneSignalNotificationServiceExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3070223222AAB41DBDDE74E /* libPods-OneSignalNotificationServiceExtension.a */; };
+		DE0D75F3034B55B67DBA90B5 /* libPods-GarageFinderFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A46187515B4E71794AC4991 /* libPods-GarageFinderFramework.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C10C8F6230AE7D2001BDDB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C10C8C7230AE450001BDDB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C10C8F0230AE7D2001BDDB6;
+			remoteInfo = GarageFinderFramework;
+		};
+		6C70BD79238588CD00E1FC72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C10C8C7230AE450001BDDB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C70BD73238588CD00E1FC72;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+		6CD2A81F231D3F9200A4782D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C10C8C7230AE450001BDDB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C10C8F0230AE7D2001BDDB6;
+			remoteInfo = GarageFinderFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6C70BD7F238588CD00E1FC72 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6C70BD7B238588CD00E1FC72 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6CD2A81C231D3F8300A4782D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6CD2A81B231D3F8300A4782D /* GarageFinderFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1A46187515B4E71794AC4991 /* libPods-GarageFinderFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GarageFinderFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39A9AAFADD058130D3D0E55B /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		3C10C8CF230AE450001BDDB6 /* GarageFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GarageFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C10C8D2230AE450001BDDB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C10C8D4230AE450001BDDB6 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		3C10C8DC230AE453001BDDB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C10C8DF230AE453001BDDB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C10C8E1230AE453001BDDB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C10C8F1230AE7D2001BDDB6 /* GarageFinderFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GarageFinderFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C10C8F3230AE7D2001BDDB6 /* GarageFinderFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GarageFinderFramework.h; sourceTree = "<group>"; };
+		3C10C8F4230AE7D2001BDDB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C10C908231016DE001BDDB6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		3C10C942231579D1001BDDB6 /* IfceLocation.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = IfceLocation.gpx; sourceTree = "<group>"; };
+		3C10C9472316A3AA001BDDB6 /* CLLocationCoordinate2D+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate2D+Extension.swift"; sourceTree = "<group>"; };
+		3C10C94C2316A826001BDDB6 /* SmartConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartConstraints.swift; sourceTree = "<group>"; };
+		3C10C94F2316A828001BDDB6 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		3C10C9512316A828001BDDB6 /* URLSessionProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionProvider.swift; sourceTree = "<group>"; };
+		3C10C9532316A828001BDDB6 /* ParametersEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParametersEncoding.swift; sourceTree = "<group>"; };
+		3C10C9542316A828001BDDB6 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		3C10C9552316A828001BDDB6 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		3C10C9562316A828001BDDB6 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		3C10C9582316A828001BDDB6 /* URLSessionExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionExtension.swift; sourceTree = "<group>"; };
+		3C10C9592316A828001BDDB6 /* URLComponentsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLComponentsExtension.swift; sourceTree = "<group>"; };
+		3C10C95A2316A828001BDDB6 /* URLRequestExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLRequestExtension.swift; sourceTree = "<group>"; };
+		3C10C95B2316A828001BDDB6 /* CodableExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableExtension.swift; sourceTree = "<group>"; };
+		3C10C95D2316A828001BDDB6 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		3C10C96C23180028001BDDB6 /* RangeLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeLocation.swift; sourceTree = "<group>"; };
+		3C10C96E23194F6B001BDDB6 /* ToolboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolboxView.swift; sourceTree = "<group>"; };
+		3C20C37B23311F7200182CB3 /* RatingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingTableViewCell.swift; sourceTree = "<group>"; };
+		3C20C38223351DC000182CB3 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		3C20C38623351DE800182CB3 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		3C20C38B233A622300182CB3 /* RentingCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentingCounterView.swift; sourceTree = "<group>"; };
+		3C20C38D233AAC4900182CB3 /* RentingGarageDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentingGarageDelegate.swift; sourceTree = "<group>"; };
+		3C20C38F233AACE100182CB3 /* GarageRentingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageRentingViewController.swift; sourceTree = "<group>"; };
+		3C20C391233AB76700182CB3 /* AbstractGarageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractGarageViewController.swift; sourceTree = "<group>"; };
+		3C20C393233B878400182CB3 /* GarageRatingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageRatingListViewController.swift; sourceTree = "<group>"; };
+		3C20C399233BAD4100182CB3 /* RentingDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentingDetailsViewController.swift; sourceTree = "<group>"; };
+		3C20C39B233BB29F00182CB3 /* RentingDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentingDetailsCell.swift; sourceTree = "<group>"; };
+		3C20C39F233CE05A00182CB3 /* RentingDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentingDetailsView.swift; sourceTree = "<group>"; };
+		3C20C3A1233E588800182CB3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3C383078234636BA0034F315 /* GarageAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageAnnotationView.swift; sourceTree = "<group>"; };
+		3C38307C23478BDF0034F315 /* AdjustsButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjustsButton.swift; sourceTree = "<group>"; };
+		3C38308723497FFD0034F315 /* NumberFormatter+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NumberFormatter+Extension.swift"; sourceTree = "<group>"; };
+		3C383089234CB3160034F315 /* TrackerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerButton.swift; sourceTree = "<group>"; };
+		3C3830A32350BE4F0034F315 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3C3830A52350BE750034F315 /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		3C3830A72350BEAB0034F315 /* Garage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Garage.swift; sourceTree = "<group>"; };
+		3C3830A92350C0540034F315 /* DocumentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DocumentType.swift; path = ../../GarageFinderFramework/Models/DocumentType.swift; sourceTree = "<group>"; };
+		3C3EB80F238D4C3100D4849B /* ParkingWaitingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingWaitingView.swift; sourceTree = "<group>"; };
+		3C54CDEC2385795700EFF918 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		3C54CDEE2385798F00EFF918 /* NSLayoutConstrait.Attribute+CaseIterable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstrait.Attribute+CaseIterable.swift"; sourceTree = "<group>"; };
+		3C55F213236C6FAA00CBFDB9 /* ParkingStatusDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingStatusDelegate.swift; sourceTree = "<group>"; };
+		3C55F215236C7E9200CBFDB9 /* FavoriteType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteType.swift; sourceTree = "<group>"; };
+		3C55F21D23730A6200CBFDB9 /* PaddedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddedLabel.swift; sourceTree = "<group>"; };
+		3C59AE1D2368772D006EC36E /* Identifier+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Identifier+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3C59AE1E2368772D006EC36E /* Identifier+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Identifier+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3C59AE2123688582006EC36E /* GarageActionsDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageActionsDelegate.swift; sourceTree = "<group>"; };
+		3C811E422326946E0075AD49 /* DetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableViewCell.swift; sourceTree = "<group>"; };
+		3C811E442327BE130075AD49 /* GarageInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageInfoView.swift; sourceTree = "<group>"; };
+		3C811E462327BE2D0075AD49 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
+		3C811E482327BE5B0075AD49 /* GarageGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageGalleryView.swift; sourceTree = "<group>"; };
+		3C811E4A2327BE840075AD49 /* GFTableViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTableViewComponent.swift; sourceTree = "<group>"; };
+		3C811E4E2327EA0C0075AD49 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		3C811E502327EB970075AD49 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		3C811E5223290F680075AD49 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		3C811E56232930AE0075AD49 /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		3C811E58232A71520075AD49 /* GarageGalleryDataSourceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageGalleryDataSourceDelegate.swift; sourceTree = "<group>"; };
+		3C811E5A232A75C90075AD49 /* CircularButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularButton.swift; sourceTree = "<group>"; };
+		3C811E5C232A80460075AD49 /* GarageActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageActionsView.swift; sourceTree = "<group>"; };
+		3C811E60232F025E0075AD49 /* FloatingViewPositioningDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingViewPositioningDelegate.swift; sourceTree = "<group>"; };
+		3C8CB139235F279E00621BB3 /* Parking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parking.swift; sourceTree = "<group>"; };
+		3C8CB143236095BC00621BB3 /* Favorite+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Favorite+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3C8CB144236095BC00621BB3 /* Favorite+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Favorite+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3C8CB14823609DEE00621BB3 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		3C8CB14B2361C8CE00621BB3 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		3C9EE70A2386B17400B8B448 /* OptionSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionSelectorViewController.swift; sourceTree = "<group>"; };
+		3C9EE70C2386B3A300B8B448 /* OptionSelectorCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionSelectorCollectionViewCell.swift; sourceTree = "<group>"; };
+		3C9EE70F2386BA9E00B8B448 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		3C9EE7112386BBD200B8B448 /* MapSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSettingsViewController.swift; sourceTree = "<group>"; };
+		3C9EE7142387430C00B8B448 /* SettingSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingSectionController.swift; sourceTree = "<group>"; };
+		3CA20D0A231FE1DA004C9A86 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		3CA20D0C232677A4004C9A86 /* GarageDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GarageDetailsViewController.swift; sourceTree = "<group>"; };
+		3CF6B9ED237AF07A002C8B24 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		3FBF1C7D3989842A52666278 /* Pods-GarageFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GarageFinder.release.xcconfig"; path = "Target Support Files/Pods-GarageFinder/Pods-GarageFinder.release.xcconfig"; sourceTree = "<group>"; };
+		56826C9898DBDF6196E05955 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		6C07D5E22361EDE2002514FE /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		6C0C266D233BA6C1003BCD92 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		6C1051E623324FA700837C04 /* ChangeScrollViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeScrollViewDelegate.swift; sourceTree = "<group>"; };
+		6C1051E82332567C00837C04 /* HeaderFavTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderFavTableView.swift; sourceTree = "<group>"; };
+		6C13B39323704E0600F25A34 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		6C13B39623704E3500F25A34 /* MainIntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainIntroView.swift; sourceTree = "<group>"; };
+		6C13B39823704E7F00F25A34 /* FirstPageIntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageIntroView.swift; sourceTree = "<group>"; };
+		6C13B39A2370506E00F25A34 /* SecondPageIntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPageIntroView.swift; sourceTree = "<group>"; };
+		6C13B39D237052F900F25A34 /* PagesIntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesIntroViewController.swift; sourceTree = "<group>"; };
+		6C13B3A123705FD400F25A34 /* ThirdPageIntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPageIntroView.swift; sourceTree = "<group>"; };
+		6C24E17723461ED9007EE981 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		6C24E17923461F6C007EE981 /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		6C24E17B23461F7B007EE981 /* UIStackView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension.swift"; sourceTree = "<group>"; };
+		6C24E17D23461F85007EE981 /* UITextView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Extension.swift"; sourceTree = "<group>"; };
+		6C24E17F23461FFF007EE981 /* RatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingViewController.swift; sourceTree = "<group>"; };
+		6C2846FB236C70DA001AB4D0 /* UpdateUserPhotoDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateUserPhotoDelegate.swift; sourceTree = "<group>"; };
+		6C339B262327CEEF00A376ED /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		6C339B282327DBC200A376ED /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		6C339B2A2327EAB300A376ED /* FloatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingView.swift; sourceTree = "<group>"; };
+		6C371EE423673B2900EF9BE7 /* MenuTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewDataSource.swift; sourceTree = "<group>"; };
+		6C371EE623674A2800EF9BE7 /* GarageHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageHistoryView.swift; sourceTree = "<group>"; };
+		6C371EE823674AA700EF9BE7 /* GarageHistoryDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageHistoryDataSource.swift; sourceTree = "<group>"; };
+		6C371EEA23674B5500EF9BE7 /* GarageHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageHistoryViewController.swift; sourceTree = "<group>"; };
+		6C45CA3423607F54000BDB7D /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		6C45CA3623607F61000BDB7D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		6C45CA3823608DA0000BDB7D /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		6C511F002350D4FB00A0D3DE /* UserAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuth.swift; sourceTree = "<group>"; };
+		6C52C1322330087600233617 /* PlaceCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCategory.swift; sourceTree = "<group>"; };
+		6C57ABB123574DE0001442A6 /* UserDefaults+Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Login.swift"; sourceTree = "<group>"; };
+		6C58990D2333C598000DA4C2 /* FavAddressColectionDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavAddressColectionDataSource.swift; sourceTree = "<group>"; };
+		6C58990F2333C92D000DA4C2 /* FloatingTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTableViewDataSource.swift; sourceTree = "<group>"; };
+		6C5AD4E223157162001F14A0 /* SearchResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		6C5AD4E523157A5A001F14A0 /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
+		6C67062E2358AC7200651C4A /* GarageAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageAnnotation.swift; sourceTree = "<group>"; };
+		6C70BD6F2385848000E1FC72 /* GarageFinder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GarageFinder.entitlements; sourceTree = "<group>"; };
+		6C70BD74238588CD00E1FC72 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C70BD76238588CD00E1FC72 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		6C70BD78238588CD00E1FC72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C7C05AC2316BB5D00FB8974 /* SearchDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDelegate.swift; sourceTree = "<group>"; };
+		6C7F0AC423574C05001159A9 /* UserAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuth.swift; sourceTree = "<group>"; };
+		6C81DF59237C430300EA3373 /* PayMethodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayMethodView.swift; sourceTree = "<group>"; };
+		6C8ACC5E2357479B00DFC585 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		6C8B9A012364F93500EA950C /* EditFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFieldView.swift; sourceTree = "<group>"; };
+		6C8B9A032364FA5700EA950C /* EditFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFieldViewController.swift; sourceTree = "<group>"; };
+		6C8B9A062365CFFC00EA950C /* ImageResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageResult.swift; sourceTree = "<group>"; };
+		6C8B9A072365CFFC00EA950C /* ImagePickerTool+UIImagePickerControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImagePickerTool+UIImagePickerControllerDelegate.swift"; sourceTree = "<group>"; };
+		6C8B9A082365CFFC00EA950C /* ImagePickerTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerTool.swift; sourceTree = "<group>"; };
+		6C8B9A092365CFFC00EA950C /* ImagePickerSourceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerSourceType.swift; sourceTree = "<group>"; };
+		6C8B9A0E2365DC5A00EA950C /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		6C8B9A102365DC6A00EA950C /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		6C8B9A122365E5DC00EA950C /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
+		6C8B9A142365EB3C00EA950C /* TitleMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleMenuView.swift; sourceTree = "<group>"; };
+		6C8C9A54234F5C5700071144 /* CustomCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCodable.swift; sourceTree = "<group>"; };
+		6CBE7307235A5C8C0048A1DC /* UIAlertController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extension.swift"; sourceTree = "<group>"; };
+		6CBE7309235DDDAA0048A1DC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		6CBE730B235DDDB60048A1DC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6CC40F16232FB25C00AD4101 /* MKMapItem+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKMapItem+Extension.swift"; sourceTree = "<group>"; };
+		6CCB1542232A6B5E002B42A1 /* FavAddressCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavAddressCollectionViewCell.swift; sourceTree = "<group>"; };
+		6CCB1544232A6BDF002B42A1 /* FavGaragesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavGaragesTableViewCell.swift; sourceTree = "<group>"; };
+		6CCB1546232A6C74002B42A1 /* FavAddressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavAddressTableViewCell.swift; sourceTree = "<group>"; };
+		6CD62A7C236884FA00331B86 /* String+Base64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Base64.swift"; sourceTree = "<group>"; };
+		6CD62A7E2368884600331B86 /* UIImage+Base64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Base64.swift"; sourceTree = "<group>"; };
+		6CE30E2B2369ACC6002C04D7 /* CharactersLimitValidationStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharactersLimitValidationStrategy.swift; sourceTree = "<group>"; };
+		6CE30E2C2369ACC6002C04D7 /* ValidationTipAssistant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationTipAssistant.swift; sourceTree = "<group>"; };
+		6CE30E2D2369ACC6002C04D7 /* NewPasswordValidationStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPasswordValidationStrategy.swift; sourceTree = "<group>"; };
+		6CE30E2E2369ACC6002C04D7 /* EmptyValidationStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyValidationStrategy.swift; sourceTree = "<group>"; };
+		6CE30E2F2369ACC6002C04D7 /* ValidationStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationStrategy.swift; sourceTree = "<group>"; };
+		6CE30E302369ACC6002C04D7 /* EmailValidationStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailValidationStrategy.swift; sourceTree = "<group>"; };
+		6CE30E312369ACC6002C04D7 /* FieldValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldValidator.swift; sourceTree = "<group>"; };
+		6CE30E322369ACC6002C04D7 /* CPFValidatorStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPFValidatorStrategy.swift; sourceTree = "<group>"; };
+		6CE30E3C2369D104002C04D7 /* UpdateFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateFieldDelegate.swift; sourceTree = "<group>"; };
+		6CE31B052330FBF9002AFF85 /* SearchResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultView.swift; sourceTree = "<group>"; };
+		6CE3881E23477FAF002458FC /* GarageRatingDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageRatingDelegate.swift; sourceTree = "<group>"; };
+		6CF013CF238E9E13005C6AD0 /* UpdateParkingStatusDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateParkingStatusDelegate.swift; sourceTree = "<group>"; };
+		6CF43F20231FE1A800206150 /* NotificationName+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationName+Extension.swift"; sourceTree = "<group>"; };
+		6CF85EF92318072A009FEFB5 /* FloatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingViewController.swift; sourceTree = "<group>"; };
+		6CFCC00A236C59060096033D /* FinishSignUpDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishSignUpDelegate.swift; sourceTree = "<group>"; };
+		6CFFC7A123624E67005D8D2F /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		6CFFC7A42363114E005D8D2F /* TextFieldsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldsTableView.swift; sourceTree = "<group>"; };
+		6CFFC7A723631191005D8D2F /* TextFieldCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCollection.swift; sourceTree = "<group>"; };
+		6CFFC7A9236311D0005D8D2F /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		6CFFC7AB2363121B005D8D2F /* TextFieldType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldType.swift; sourceTree = "<group>"; };
+		6CFFC7AD236312EA005D8D2F /* TextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCell.swift; sourceTree = "<group>"; };
+		6CFFC7AF23631DCB005D8D2F /* TextFieldsTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldsTableViewDataSource.swift; sourceTree = "<group>"; };
+		6CFFC7B3236489AA005D8D2F /* SignupHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupHeader.swift; sourceTree = "<group>"; };
+		6CFFC7B723649059005D8D2F /* AnyChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyChain.swift; sourceTree = "<group>"; };
+		6CFFC7B823649059005D8D2F /* NumberChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberChain.swift; sourceTree = "<group>"; };
+		6CFFC7B923649059005D8D2F /* CharacterChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterChain.swift; sourceTree = "<group>"; };
+		6CFFC7BA23649059005D8D2F /* DefaultChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultChain.swift; sourceTree = "<group>"; };
+		6CFFC7BB23649059005D8D2F /* Chain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chain.swift; sourceTree = "<group>"; };
+		6CFFC7BC23649059005D8D2F /* ChainLimitation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainLimitation.swift; sourceTree = "<group>"; };
+		6CFFC7BD23649059005D8D2F /* UITextMaskField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextMaskField.swift; sourceTree = "<group>"; };
+		6CFFC7BE23649059005D8D2F /* String+isNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+isNumber.swift"; sourceTree = "<group>"; };
+		6CFFC7C7236497DD005D8D2F /* KeyScroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyScroller.swift; sourceTree = "<group>"; };
+		6CFFC7C923649BE8005D8D2F /* LabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelCell.swift; sourceTree = "<group>"; };
+		9CF1C3EB3F50C59DEB7F7468 /* Pods-GarageFinderFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GarageFinderFramework.release.xcconfig"; path = "Target Support Files/Pods-GarageFinderFramework/Pods-GarageFinderFramework.release.xcconfig"; sourceTree = "<group>"; };
+		B3070223222AAB41DBDDE74E /* libPods-OneSignalNotificationServiceExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OneSignalNotificationServiceExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D80B2123205E783F6C39C7 /* Pods-GarageFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GarageFinder.debug.xcconfig"; path = "Target Support Files/Pods-GarageFinder/Pods-GarageFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		CCE0B728A27EC25CBC74EFE5 /* libPods-GarageFinder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GarageFinder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F296F1403758F2CCCAC56E95 /* Pods-GarageFinderFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GarageFinderFramework.debug.xcconfig"; path = "Target Support Files/Pods-GarageFinderFramework/Pods-GarageFinderFramework.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C10C8CC230AE450001BDDB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CD2A81E231D3F9200A4782D /* GarageFinderFramework.framework in Frameworks */,
+				3C20C3A2233E588800182CB3 /* MapKit.framework in Frameworks */,
+				A10267E523063AB1CB2FD00A /* libPods-GarageFinder.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C10C8EE230AE7D2001BDDB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0D75F3034B55B67DBA90B5 /* libPods-GarageFinderFramework.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C70BD71238588CD00E1FC72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D068DF6AD55BCFCCF3F29648 /* libPods-OneSignalNotificationServiceExtension.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C10C8C6230AE450001BDDB6 = {
+			isa = PBXGroup;
+			children = (
+				3C10C8D1230AE450001BDDB6 /* GarageFinder */,
+				3C10C8F2230AE7D2001BDDB6 /* GarageFinderFramework */,
+				6C70BD75238588CD00E1FC72 /* OneSignalNotificationServiceExtension */,
+				3C10C8D0230AE450001BDDB6 /* Products */,
+				6CD2A81D231D3F9200A4782D /* Frameworks */,
+				6C7F0AC323574BDE001159A9 /* Recovered References */,
+				481A5785CE82F21CB0DAF509 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		3C10C8D0230AE450001BDDB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C10C8CF230AE450001BDDB6 /* GarageFinder.app */,
+				3C10C8F1230AE7D2001BDDB6 /* GarageFinderFramework.framework */,
+				6C70BD74238588CD00E1FC72 /* OneSignalNotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C10C8D1230AE450001BDDB6 /* GarageFinder */ = {
+			isa = PBXGroup;
+			children = (
+				6C70BD6F2385848000E1FC72 /* GarageFinder.entitlements */,
+				3C10C8E1230AE453001BDDB6 /* Info.plist */,
+				3C10C8DE230AE453001BDDB6 /* LaunchScreen.storyboard */,
+				3C10C8DC230AE453001BDDB6 /* Assets.xcassets */,
+				3C10C8D2230AE450001BDDB6 /* AppDelegate.swift */,
+				3C10C942231579D1001BDDB6 /* IfceLocation.gpx */,
+				3C8CB14723609DEE00621BB3 /* GarageFinderModel.xcdatamodeld */,
+				6CFFC7A623631183005D8D2F /* Utils */,
+				6CBE731B235DFBF80048A1DC /* NetworkService */,
+				6C52C1312330084800233617 /* Enum */,
+				3C10C9462316A38C001BDDB6 /* Extension */,
+				3C8CB14A2361C8CE00621BB3 /* Persistence */,
+				6C1D5F9E2334FBD0005D9B06 /* Model */,
+				3C10C8E9230AE634001BDDB6 /* View */,
+				3C10C8E8230AE62A001BDDB6 /* Controller */,
+				6C58990C2333C539000DA4C2 /* DataSource */,
+				6C7C05AB2316BB4900FB8974 /* Protocol */,
+			);
+			path = GarageFinder;
+			sourceTree = "<group>";
+		};
+		3C10C8E8230AE62A001BDDB6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6C13B39C237052E000F25A34 /* IntroViewController */,
+				6C5AD4E223157162001F14A0 /* SearchResultViewController.swift */,
+				3C10C8D4230AE450001BDDB6 /* MapViewController.swift */,
+				6CF85EF92318072A009FEFB5 /* FloatingViewController.swift */,
+				3C20C391233AB76700182CB3 /* AbstractGarageViewController.swift */,
+				3C20C39D233BB79700182CB3 /* GarageDetailsViewController */,
+				3C20C39E233BB7A800182CB3 /* GarageRentingViewController */,
+				6CE3881D23477ECB002458FC /* RatingViewController */,
+				6CE30E3B2369D06C002C04D7 /* Menu & SignIn */,
+				3C9EE70E2386BA8600B8B448 /* Settings */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3C10C8E9230AE634001BDDB6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6C13B39523704E2600F25A34 /* IntroView */,
+				3C811E41232692970075AD49 /* Component */,
+				6CE31B052330FBF9002AFF85 /* SearchResultView.swift */,
+				6C5AD4E523157A5A001F14A0 /* SearchResultCell.swift */,
+				3C10C908231016DE001BDDB6 /* MapView.swift */,
+				3C10C96E23194F6B001BDDB6 /* ToolboxView.swift */,
+				3C10C96C23180028001BDDB6 /* RangeLocation.swift */,
+				6C339B282327DBC200A376ED /* CircleView.swift */,
+				6C339B2A2327EAB300A376ED /* FloatingView.swift */,
+				6CCB1542232A6B5E002B42A1 /* FavAddressCollectionViewCell.swift */,
+				6CCB1546232A6C74002B42A1 /* FavAddressTableViewCell.swift */,
+				6CCB1544232A6BDF002B42A1 /* FavGaragesTableViewCell.swift */,
+				6C1051E82332567C00837C04 /* HeaderFavTableView.swift */,
+				6CBE7309235DDDAA0048A1DC /* LoginView.swift */,
+				6C45CA3423607F54000BDB7D /* SignUpView.swift */,
+				6C8B9A012364F93500EA950C /* EditFieldView.swift */,
+				6C8B9A162365EB7A00EA950C /* MenuView */,
+				6C371EE623674A2800EF9BE7 /* GarageHistoryView.swift */,
+				3C9EE70C2386B3A300B8B448 /* OptionSelectorCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3C10C8F2230AE7D2001BDDB6 /* GarageFinderFramework */ = {
+			isa = PBXGroup;
+			children = (
+				3C10C94B2316A826001BDDB6 /* Constraints */,
+				3C10C94D2316A828001BDDB6 /* Network */,
+				3C10C8F3230AE7D2001BDDB6 /* GarageFinderFramework.h */,
+				3C10C8F4230AE7D2001BDDB6 /* Info.plist */,
+			);
+			path = GarageFinderFramework;
+			sourceTree = "<group>";
+		};
+		3C10C9462316A38C001BDDB6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3C10C9472316A3AA001BDDB6 /* CLLocationCoordinate2D+Extension.swift */,
+				6CF43F20231FE1A800206150 /* NotificationName+Extension.swift */,
+				3CA20D0A231FE1DA004C9A86 /* UIColor+Extension.swift */,
+				3C811E4E2327EA0C0075AD49 /* String+Extension.swift */,
+				3C811E502327EB970075AD49 /* Double+Extension.swift */,
+				3C811E5223290F680075AD49 /* UILabel+Extension.swift */,
+				6C339B262327CEEF00A376ED /* UIView+Extension.swift */,
+				6CC40F16232FB25C00AD4101 /* MKMapItem+Extension.swift */,
+				6C24E17923461F6C007EE981 /* UIButton+Extension.swift */,
+				6C24E17B23461F7B007EE981 /* UIStackView+Extension.swift */,
+				6C24E17D23461F85007EE981 /* UITextView+Extension.swift */,
+				6C45CA3823608DA0000BDB7D /* UITextField+Extension.swift */,
+				6C0C266D233BA6C1003BCD92 /* UIViewController+Extension.swift */,
+				3C38308723497FFD0034F315 /* NumberFormatter+Extension.swift */,
+				6C57ABB123574DE0001442A6 /* UserDefaults+Login.swift */,
+				6CBE7307235A5C8C0048A1DC /* UIAlertController+Extension.swift */,
+				6C07D5E22361EDE2002514FE /* Date+Extension.swift */,
+				6C8B9A122365E5DC00EA950C /* UINavigationController+Extension.swift */,
+				6CD62A7C236884FA00331B86 /* String+Base64.swift */,
+				6CD62A7E2368884600331B86 /* UIImage+Base64.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		3C10C94B2316A826001BDDB6 /* Constraints */ = {
+			isa = PBXGroup;
+			children = (
+				3C10C94C2316A826001BDDB6 /* SmartConstraints.swift */,
+				3C54CDEB2385794000EFF918 /* Extension */,
+			);
+			path = Constraints;
+			sourceTree = "<group>";
+		};
+		3C10C94D2316A828001BDDB6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6C8ACC5E2357479B00DFC585 /* Response.swift */,
+				3C10C9502316A828001BDDB6 /* SessionProvider */,
+				3C10C9522316A828001BDDB6 /* Enums */,
+				3C10C9572316A828001BDDB6 /* Extensions */,
+				3C10C95C2316A828001BDDB6 /* Protocols */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		3C10C9502316A828001BDDB6 /* SessionProvider */ = {
+			isa = PBXGroup;
+			children = (
+				3C10C9512316A828001BDDB6 /* URLSessionProvider.swift */,
+			);
+			path = SessionProvider;
+			sourceTree = "<group>";
+		};
+		3C10C9522316A828001BDDB6 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				3C10C9532316A828001BDDB6 /* ParametersEncoding.swift */,
+				3C10C9542316A828001BDDB6 /* HTTPMethod.swift */,
+				3C10C9552316A828001BDDB6 /* Task.swift */,
+				3C10C9562316A828001BDDB6 /* NetworkError.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		3C10C9572316A828001BDDB6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3C10C9582316A828001BDDB6 /* URLSessionExtension.swift */,
+				3C10C9592316A828001BDDB6 /* URLComponentsExtension.swift */,
+				3C10C95A2316A828001BDDB6 /* URLRequestExtension.swift */,
+				3C10C95B2316A828001BDDB6 /* CodableExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3C10C95C2316A828001BDDB6 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3C10C95D2316A828001BDDB6 /* Service.swift */,
+				6C8C9A54234F5C5700071144 /* CustomCodable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		3C20C39D233BB79700182CB3 /* GarageDetailsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3CA20D0C232677A4004C9A86 /* GarageDetailsViewController.swift */,
+				3C20C393233B878400182CB3 /* GarageRatingListViewController.swift */,
+			);
+			path = GarageDetailsViewController;
+			sourceTree = "<group>";
+		};
+		3C20C39E233BB7A800182CB3 /* GarageRentingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3C20C38F233AACE100182CB3 /* GarageRentingViewController.swift */,
+				3C20C399233BAD4100182CB3 /* RentingDetailsViewController.swift */,
+			);
+			path = GarageRentingViewController;
+			sourceTree = "<group>";
+		};
+		3C54CDEB2385794000EFF918 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3C54CDEC2385795700EFF918 /* UIView+Extension.swift */,
+				3C54CDEE2385798F00EFF918 /* NSLayoutConstrait.Attribute+CaseIterable.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		3C811E41232692970075AD49 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				6CFFC7B523649059005D8D2F /* UITextMaskField */,
+				6CFFC7A3236310F6005D8D2F /* TextFieldsTable */,
+				3C38307C23478BDF0034F315 /* AdjustsButton.swift */,
+				3C383089234CB3160034F315 /* TrackerButton.swift */,
+				3C811E462327BE2D0075AD49 /* GFButton.swift */,
+				3C811E4A2327BE840075AD49 /* GFTableViewComponent.swift */,
+				3C20C37B23311F7200182CB3 /* RatingTableViewCell.swift */,
+				3C811E422326946E0075AD49 /* DetailsTableViewCell.swift */,
+				3C811E442327BE130075AD49 /* GarageInfoView.swift */,
+				3C811E482327BE5B0075AD49 /* GarageGalleryView.swift */,
+				3C811E56232930AE0075AD49 /* GalleryCollectionViewCell.swift */,
+				3C55F21D23730A6200CBFDB9 /* PaddedLabel.swift */,
+				3C811E5A232A75C90075AD49 /* CircularButton.swift */,
+				3C811E5C232A80460075AD49 /* GarageActionsView.swift */,
+				3C20C38B233A622300182CB3 /* RentingCounterView.swift */,
+				3C20C39B233BB29F00182CB3 /* RentingDetailsCell.swift */,
+				3C20C39F233CE05A00182CB3 /* RentingDetailsView.swift */,
+				3C383078234636BA0034F315 /* GarageAnnotationView.swift */,
+				6C24E17723461ED9007EE981 /* RatingView.swift */,
+				6CFFC7A123624E67005D8D2F /* LoadingView.swift */,
+				6CFFC7B3236489AA005D8D2F /* SignupHeader.swift */,
+				6C81DF59237C430300EA3373 /* PayMethodView.swift */,
+				3C3EB80F238D4C3100D4849B /* ParkingWaitingView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		3C8CB142236095BC00621BB3 /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				3C55F215236C7E9200CBFDB9 /* FavoriteType.swift */,
+				3C59AE1D2368772D006EC36E /* Identifier+CoreDataClass.swift */,
+				3C59AE1E2368772D006EC36E /* Identifier+CoreDataProperties.swift */,
+				3C8CB143236095BC00621BB3 /* Favorite+CoreDataProperties.swift */,
+				3C8CB144236095BC00621BB3 /* Favorite+CoreDataClass.swift */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		3C8CB14A2361C8CE00621BB3 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				3C8CB14B2361C8CE00621BB3 /* CoreDataManager.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		3C9EE70E2386BA8600B8B448 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3C9EE7132386BC9400B8B448 /* Map */,
+				3C9EE70F2386BA9E00B8B448 /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		3C9EE7132386BC9400B8B448 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				3C9EE70A2386B17400B8B448 /* OptionSelectorViewController.swift */,
+				3C9EE7112386BBD200B8B448 /* MapSettingsViewController.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		481A5785CE82F21CB0DAF509 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2D80B2123205E783F6C39C7 /* Pods-GarageFinder.debug.xcconfig */,
+				3FBF1C7D3989842A52666278 /* Pods-GarageFinder.release.xcconfig */,
+				F296F1403758F2CCCAC56E95 /* Pods-GarageFinderFramework.debug.xcconfig */,
+				9CF1C3EB3F50C59DEB7F7468 /* Pods-GarageFinderFramework.release.xcconfig */,
+				39A9AAFADD058130D3D0E55B /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				56826C9898DBDF6196E05955 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6C13B39523704E2600F25A34 /* IntroView */ = {
+			isa = PBXGroup;
+			children = (
+				6C13B39623704E3500F25A34 /* MainIntroView.swift */,
+				6C13B39823704E7F00F25A34 /* FirstPageIntroView.swift */,
+				6C13B39A2370506E00F25A34 /* SecondPageIntroView.swift */,
+				6C13B3A123705FD400F25A34 /* ThirdPageIntroView.swift */,
+			);
+			path = IntroView;
+			sourceTree = "<group>";
+		};
+		6C13B39C237052E000F25A34 /* IntroViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6C13B39323704E0600F25A34 /* IntroViewController.swift */,
+				6C13B39D237052F900F25A34 /* PagesIntroViewController.swift */,
+			);
+			path = IntroViewController;
+			sourceTree = "<group>";
+		};
+		6C1D5F9E2334FBD0005D9B06 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3C3830A32350BE4F0034F315 /* User.swift */,
+				6C7F0AC423574C05001159A9 /* UserAuth.swift */,
+				3C3830A92350C0540034F315 /* DocumentType.swift */,
+				3C3830A52350BE750034F315 /* Address.swift */,
+				3C3830A72350BEAB0034F315 /* Garage.swift */,
+				3C8CB139235F279E00621BB3 /* Parking.swift */,
+				3C20C38623351DE800182CB3 /* Comment.swift */,
+				3C20C38223351DC000182CB3 /* Vehicle.swift */,
+				3C8CB142236095BC00621BB3 /* Favorite */,
+				6C67062E2358AC7200651C4A /* GarageAnnotation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6C52C1312330084800233617 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				6C52C1322330087600233617 /* PlaceCategory.swift */,
+				6CFFC7AB2363121B005D8D2F /* TextFieldType.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		6C58990C2333C539000DA4C2 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				3C811E58232A71520075AD49 /* GarageGalleryDataSourceDelegate.swift */,
+				6C58990D2333C598000DA4C2 /* FavAddressColectionDataSource.swift */,
+				6C58990F2333C92D000DA4C2 /* FloatingTableViewDataSource.swift */,
+				6CFFC7AF23631DCB005D8D2F /* TextFieldsTableViewDataSource.swift */,
+				6C371EE423673B2900EF9BE7 /* MenuTableViewDataSource.swift */,
+				6C371EE823674AA700EF9BE7 /* GarageHistoryDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		6C70BD75238588CD00E1FC72 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				6C70BD76238588CD00E1FC72 /* NotificationService.swift */,
+				6C70BD78238588CD00E1FC72 /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		6C7C05AB2316BB4900FB8974 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				6C7C05AC2316BB5D00FB8974 /* SearchDelegate.swift */,
+				6C1051E623324FA700837C04 /* ChangeScrollViewDelegate.swift */,
+				3C811E60232F025E0075AD49 /* FloatingViewPositioningDelegate.swift */,
+				3C20C38D233AAC4900182CB3 /* RentingGarageDelegate.swift */,
+				3C59AE2123688582006EC36E /* GarageActionsDelegate.swift */,
+				3C55F213236C6FAA00CBFDB9 /* ParkingStatusDelegate.swift */,
+				3C9EE7142387430C00B8B448 /* SettingSectionController.swift */,
+				6CF013CF238E9E13005C6AD0 /* UpdateParkingStatusDelegate.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		6C7F0AC323574BDE001159A9 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				6C511F002350D4FB00A0D3DE /* UserAuth.swift */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		6C8B9A052365CFFC00EA950C /* ImagePickerTool */ = {
+			isa = PBXGroup;
+			children = (
+				6C8B9A062365CFFC00EA950C /* ImageResult.swift */,
+				6C8B9A072365CFFC00EA950C /* ImagePickerTool+UIImagePickerControllerDelegate.swift */,
+				6C8B9A082365CFFC00EA950C /* ImagePickerTool.swift */,
+				6C8B9A092365CFFC00EA950C /* ImagePickerSourceType.swift */,
+			);
+			path = ImagePickerTool;
+			sourceTree = "<group>";
+		};
+		6C8B9A162365EB7A00EA950C /* MenuView */ = {
+			isa = PBXGroup;
+			children = (
+				6C8B9A142365EB3C00EA950C /* TitleMenuView.swift */,
+				6C8B9A0E2365DC5A00EA950C /* MenuView.swift */,
+			);
+			path = MenuView;
+			sourceTree = "<group>";
+		};
+		6CBE731B235DFBF80048A1DC /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				3C10C94F2316A828001BDDB6 /* NetworkService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		6CD2A81D231D3F9200A4782D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C20C3A1233E588800182CB3 /* MapKit.framework */,
+				CCE0B728A27EC25CBC74EFE5 /* libPods-GarageFinder.a */,
+				1A46187515B4E71794AC4991 /* libPods-GarageFinderFramework.a */,
+				B3070223222AAB41DBDDE74E /* libPods-OneSignalNotificationServiceExtension.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CE30E2A2369ACC6002C04D7 /* Validator */ = {
+			isa = PBXGroup;
+			children = (
+				6CE30E2B2369ACC6002C04D7 /* CharactersLimitValidationStrategy.swift */,
+				6CE30E2C2369ACC6002C04D7 /* ValidationTipAssistant.swift */,
+				6CE30E2D2369ACC6002C04D7 /* NewPasswordValidationStrategy.swift */,
+				6CE30E2E2369ACC6002C04D7 /* EmptyValidationStrategy.swift */,
+				6CE30E2F2369ACC6002C04D7 /* ValidationStrategy.swift */,
+				6CE30E302369ACC6002C04D7 /* EmailValidationStrategy.swift */,
+				6CE30E312369ACC6002C04D7 /* FieldValidator.swift */,
+				6CE30E322369ACC6002C04D7 /* CPFValidatorStrategy.swift */,
+			);
+			path = Validator;
+			sourceTree = "<group>";
+		};
+		6CE30E3B2369D06C002C04D7 /* Menu & SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				6C8B9A102365DC6A00EA950C /* MenuViewController.swift */,
+				6C45CA3623607F61000BDB7D /* SignUpViewController.swift */,
+				6C8B9A032364FA5700EA950C /* EditFieldViewController.swift */,
+				6CBE730B235DDDB60048A1DC /* LoginViewController.swift */,
+				6CE30E3C2369D104002C04D7 /* UpdateFieldDelegate.swift */,
+				6C371EEA23674B5500EF9BE7 /* GarageHistoryViewController.swift */,
+				6CFCC00A236C59060096033D /* FinishSignUpDelegate.swift */,
+				6C2846FB236C70DA001AB4D0 /* UpdateUserPhotoDelegate.swift */,
+			);
+			path = "Menu & SignIn";
+			sourceTree = "<group>";
+		};
+		6CE3881D23477ECB002458FC /* RatingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6C24E17F23461FFF007EE981 /* RatingViewController.swift */,
+				6CE3881E23477FAF002458FC /* GarageRatingDelegate.swift */,
+			);
+			path = RatingViewController;
+			sourceTree = "<group>";
+		};
+		6CFFC7A3236310F6005D8D2F /* TextFieldsTable */ = {
+			isa = PBXGroup;
+			children = (
+				6CFFC7A42363114E005D8D2F /* TextFieldsTableView.swift */,
+				6CFFC7A9236311D0005D8D2F /* GFTextField.swift */,
+				6CFFC7AD236312EA005D8D2F /* TextFieldCell.swift */,
+				6CFFC7C923649BE8005D8D2F /* LabelCell.swift */,
+			);
+			path = TextFieldsTable;
+			sourceTree = "<group>";
+		};
+		6CFFC7A623631183005D8D2F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6CE30E2A2369ACC6002C04D7 /* Validator */,
+				6C8B9A052365CFFC00EA950C /* ImagePickerTool */,
+				6CFFC7C7236497DD005D8D2F /* KeyScroller.swift */,
+				6CFFC7A723631191005D8D2F /* TextFieldCollection.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6CFFC7B523649059005D8D2F /* UITextMaskField */ = {
+			isa = PBXGroup;
+			children = (
+				6CFFC7B623649059005D8D2F /* Chain */,
+				6CFFC7BB23649059005D8D2F /* Chain.swift */,
+				6CFFC7BC23649059005D8D2F /* ChainLimitation.swift */,
+				6CFFC7BD23649059005D8D2F /* UITextMaskField.swift */,
+				6CFFC7BE23649059005D8D2F /* String+isNumber.swift */,
+			);
+			path = UITextMaskField;
+			sourceTree = "<group>";
+		};
+		6CFFC7B623649059005D8D2F /* Chain */ = {
+			isa = PBXGroup;
+			children = (
+				6CFFC7B723649059005D8D2F /* AnyChain.swift */,
+				6CFFC7B823649059005D8D2F /* NumberChain.swift */,
+				6CFFC7B923649059005D8D2F /* CharacterChain.swift */,
+				6CFFC7BA23649059005D8D2F /* DefaultChain.swift */,
+			);
+			path = Chain;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3C10C8EC230AE7D2001BDDB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C10C8F5230AE7D2001BDDB6 /* GarageFinderFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3C10C8CE230AE450001BDDB6 /* GarageFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C10C8E4230AE453001BDDB6 /* Build configuration list for PBXNativeTarget "GarageFinder" */;
+			buildPhases = (
+				9834F620D575BFA78F5EC214 /* [CP] Check Pods Manifest.lock */,
+				3C10C8CB230AE450001BDDB6 /* Sources */,
+				3C10C8CC230AE450001BDDB6 /* Frameworks */,
+				3C10C8CD230AE450001BDDB6 /* Resources */,
+				6C81F6AF230D632D004A5850 /* Swift Lint */,
+				6CD2A81C231D3F8300A4782D /* Embed Frameworks */,
+				6C70BD7F238588CD00E1FC72 /* Embed App Extensions */,
+				159A04E7BAE4E8801DD71E9F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C10C8F7230AE7D2001BDDB6 /* PBXTargetDependency */,
+				6CD2A820231D3F9200A4782D /* PBXTargetDependency */,
+				6C70BD7A238588CD00E1FC72 /* PBXTargetDependency */,
+			);
+			name = GarageFinder;
+			productName = GarageFinder;
+			productReference = 3C10C8CF230AE450001BDDB6 /* GarageFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C10C8F0230AE7D2001BDDB6 /* GarageFinderFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C10C8FA230AE7D2001BDDB6 /* Build configuration list for PBXNativeTarget "GarageFinderFramework" */;
+			buildPhases = (
+				261746BDF5378F864EB9D1FB /* [CP] Check Pods Manifest.lock */,
+				3C10C8EC230AE7D2001BDDB6 /* Headers */,
+				3C10C8ED230AE7D2001BDDB6 /* Sources */,
+				3C10C8EE230AE7D2001BDDB6 /* Frameworks */,
+				3C10C8EF230AE7D2001BDDB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GarageFinderFramework;
+			productName = GarageFinderFramework;
+			productReference = 3C10C8F1230AE7D2001BDDB6 /* GarageFinderFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6C70BD73238588CD00E1FC72 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C70BD7C238588CD00E1FC72 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				9B33AA329F715572B6426555 /* [CP] Check Pods Manifest.lock */,
+				6C70BD70238588CD00E1FC72 /* Sources */,
+				6C70BD71238588CD00E1FC72 /* Frameworks */,
+				6C70BD72238588CD00E1FC72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 6C70BD74238588CD00E1FC72 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C10C8C7230AE450001BDDB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Alcides Junior";
+				TargetAttributes = {
+					3C10C8CE230AE450001BDDB6 = {
+						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					3C10C8F0230AE7D2001BDDB6 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					6C70BD73238588CD00E1FC72 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = 3C10C8CA230AE450001BDDB6 /* Build configuration list for PBXProject "GarageFinder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"pt-BR",
+			);
+			mainGroup = 3C10C8C6230AE450001BDDB6;
+			productRefGroup = 3C10C8D0230AE450001BDDB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C10C8CE230AE450001BDDB6 /* GarageFinder */,
+				3C10C8F0230AE7D2001BDDB6 /* GarageFinderFramework */,
+				6C70BD73238588CD00E1FC72 /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C10C8CD230AE450001BDDB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C10C8E0230AE453001BDDB6 /* LaunchScreen.storyboard in Resources */,
+				3C10C8DD230AE453001BDDB6 /* Assets.xcassets in Resources */,
+				3C10C944231579D2001BDDB6 /* IfceLocation.gpx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C10C8EF230AE7D2001BDDB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C70BD72238588CD00E1FC72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		159A04E7BAE4E8801DD71E9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GarageFinder/Pods-GarageFinder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GarageFinder/Pods-GarageFinder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GarageFinder/Pods-GarageFinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		261746BDF5378F864EB9D1FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GarageFinderFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C81F6AF230D632D004A5850 /* Swift Lint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Swift Lint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		9834F620D575BFA78F5EC214 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GarageFinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B33AA329F715572B6426555 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C10C8CB230AE450001BDDB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2C7B3523730AF200BB3D0A /* PaddedLabel.swift in Sources */,
+				6CC3CF53236C4DDA003A2DFD /* Date+Extension.swift in Sources */,
+				6CC3CF52236C4DD5003A2DFD /* FavAddressCollectionViewCell.swift in Sources */,
+				6C57ABB023574D0C001442A6 /* AbstractGarageViewController.swift in Sources */,
+				6CD62A7F2368884600331B86 /* UIImage+Base64.swift in Sources */,
+				6CFFC7CA23649BE8005D8D2F /* LabelCell.swift in Sources */,
+				3C20C38C233A622300182CB3 /* RentingCounterView.swift in Sources */,
+				3C38307523410F310034F315 /* Vehicle.swift in Sources */,
+				6CE30E382369ACC6002C04D7 /* EmailValidationStrategy.swift in Sources */,
+				6CFFC7A823631191005D8D2F /* TextFieldCollection.swift in Sources */,
+				6CFFC7B023631DCB005D8D2F /* TextFieldsTableViewDataSource.swift in Sources */,
+				6CFFC7C323649059005D8D2F /* Chain.swift in Sources */,
+				6CE30E342369ACC6002C04D7 /* ValidationTipAssistant.swift in Sources */,
+				3C38307423410F310034F315 /* Comment.swift in Sources */,
+				6C8B9A022364F93500EA950C /* EditFieldView.swift in Sources */,
+				6CFFC7AA236311D0005D8D2F /* GFTextField.swift in Sources */,
+				6C8B9A042364FA5700EA950C /* EditFieldViewController.swift in Sources */,
+				6CFFC7C423649059005D8D2F /* ChainLimitation.swift in Sources */,
+				3C8CB145236095BC00621BB3 /* Favorite+CoreDataProperties.swift in Sources */,
+				3C9EE7102386BA9E00B8B448 /* SettingsViewController.swift in Sources */,
+				3C8CB146236095BC00621BB3 /* Favorite+CoreDataClass.swift in Sources */,
+				6C8F0EBF233A661A006153E4 /* NotificationName+Extension.swift in Sources */,
+				6CCB1547232A6C74002B42A1 /* FavAddressTableViewCell.swift in Sources */,
+				6C2846FC236C70DA001AB4D0 /* UpdateUserPhotoDelegate.swift in Sources */,
+				3C20C39A233BAD4100182CB3 /* RentingDetailsViewController.swift in Sources */,
+				3C811E4B2327BE840075AD49 /* GFTableViewComponent.swift in Sources */,
+				3C38307D23478BDF0034F315 /* AdjustsButton.swift in Sources */,
+				3C9EE70D2386B3A300B8B448 /* OptionSelectorCollectionViewCell.swift in Sources */,
+				3CA20D0D232677A4004C9A86 /* GarageDetailsViewController.swift in Sources */,
+				3C811E512327EB970075AD49 /* Double+Extension.swift in Sources */,
+				3C811E57232930AE0075AD49 /* GalleryCollectionViewCell.swift in Sources */,
+				6CFFC7A52363114E005D8D2F /* TextFieldsTableView.swift in Sources */,
+				3C9EE7152387430C00B8B448 /* SettingSectionController.swift in Sources */,
+				3C9EE7122386BBD200B8B448 /* MapSettingsViewController.swift in Sources */,
+				3C811E59232A71520075AD49 /* GarageGalleryDataSourceDelegate.swift in Sources */,
+				3C811E5323290F680075AD49 /* UILabel+Extension.swift in Sources */,
+				6CF85EFA2318072A009FEFB5 /* FloatingViewController.swift in Sources */,
+				6CE30E332369ACC6002C04D7 /* CharactersLimitValidationStrategy.swift in Sources */,
+				6C339B272327CEEF00A376ED /* UIView+Extension.swift in Sources */,
+				6C24E18023461FFF007EE981 /* RatingViewController.swift in Sources */,
+				6CFFC7BF23649059005D8D2F /* AnyChain.swift in Sources */,
+				6C0C266E233BA6C1003BCD92 /* UIViewController+Extension.swift in Sources */,
+				6C52C1332330087600233617 /* PlaceCategory.swift in Sources */,
+				3C3EB810238D4C3100D4849B /* ParkingWaitingView.swift in Sources */,
+				6CE31B062330FBF9002AFF85 /* SearchResultView.swift in Sources */,
+				6CE30E362369ACC6002C04D7 /* EmptyValidationStrategy.swift in Sources */,
+				6C45CA3723607F61000BDB7D /* SignUpViewController.swift in Sources */,
+				3C10C8D5230AE450001BDDB6 /* MapViewController.swift in Sources */,
+				3C20C3A0233CE05A00182CB3 /* RentingDetailsView.swift in Sources */,
+				6CE30E352369ACC6002C04D7 /* NewPasswordValidationStrategy.swift in Sources */,
+				6C57ABB223574DE0001442A6 /* UserDefaults+Login.swift in Sources */,
+				6C7C05AD2316BB5D00FB8974 /* SearchDelegate.swift in Sources */,
+				3C811E432326946E0075AD49 /* DetailsTableViewCell.swift in Sources */,
+				3C3830AB2350C1680034F315 /* Garage.swift in Sources */,
+				3C38308A234CB3160034F315 /* TrackerButton.swift in Sources */,
+				6CFFC7B4236489AA005D8D2F /* SignupHeader.swift in Sources */,
+				3C811E4F2327EA0C0075AD49 /* String+Extension.swift in Sources */,
+				3C811E5D232A80460075AD49 /* GarageActionsView.swift in Sources */,
+				3C59AE202368772D006EC36E /* Identifier+CoreDataProperties.swift in Sources */,
+				3C20C38E233AAC4900182CB3 /* RentingGarageDelegate.swift in Sources */,
+				3C8CB13A235F279E00621BB3 /* Parking.swift in Sources */,
+				6CBE731C235DFC0F0048A1DC /* NetworkService.swift in Sources */,
+				6C45CA3923608DA0000BDB7D /* UITextField+Extension.swift in Sources */,
+				3CA20D0B231FE1DA004C9A86 /* UIColor+Extension.swift in Sources */,
+				3C59AE1F2368772D006EC36E /* Identifier+CoreDataClass.swift in Sources */,
+				3C20C394233B878500182CB3 /* GarageRatingListViewController.swift in Sources */,
+				6C24E17823461ED9007EE981 /* RatingView.swift in Sources */,
+				6C45CA3523607F54000BDB7D /* SignUpView.swift in Sources */,
+				6C13B39423704E0600F25A34 /* IntroViewController.swift in Sources */,
+				6C58990E2333C598000DA4C2 /* FavAddressColectionDataSource.swift in Sources */,
+				6CFFC7C223649059005D8D2F /* DefaultChain.swift in Sources */,
+				6C371EE923674AA700EF9BE7 /* GarageHistoryDataSource.swift in Sources */,
+				3C3830AC2350C1680034F315 /* Address.swift in Sources */,
+				6CE3881F23477FAF002458FC /* GarageRatingDelegate.swift in Sources */,
+				6C7F0AC523574C05001159A9 /* UserAuth.swift in Sources */,
+				6CE30E3D2369D104002C04D7 /* UpdateFieldDelegate.swift in Sources */,
+				6C13B39B2370506E00F25A34 /* SecondPageIntroView.swift in Sources */,
+				6CFFC7C523649059005D8D2F /* UITextMaskField.swift in Sources */,
+				6C1051E92332567C00837C04 /* HeaderFavTableView.swift in Sources */,
+				3C20C390233AACE100182CB3 /* GarageRentingViewController.swift in Sources */,
+				6C371EE523673B2900EF9BE7 /* MenuTableViewDataSource.swift in Sources */,
+				6CC40F17232FB25C00AD4101 /* MKMapItem+Extension.swift in Sources */,
+				6CFFC7C023649059005D8D2F /* NumberChain.swift in Sources */,
+				3C59AE2223688582006EC36E /* GarageActionsDelegate.swift in Sources */,
+				6C1051E723324FA700837C04 /* ChangeScrollViewDelegate.swift in Sources */,
+				6C13B39723704E3500F25A34 /* MainIntroView.swift in Sources */,
+				6CFCC00B236C59060096033D /* FinishSignUpDelegate.swift in Sources */,
+				6C24E17E23461F85007EE981 /* UITextView+Extension.swift in Sources */,
+				3C811E472327BE2D0075AD49 /* GFButton.swift in Sources */,
+				6CD62A7D236884FA00331B86 /* String+Base64.swift in Sources */,
+				3C3830AE2350C1680034F315 /* DocumentType.swift in Sources */,
+				6CE30E3A2369ACC6002C04D7 /* CPFValidatorStrategy.swift in Sources */,
+				3C3830AD2350C1680034F315 /* User.swift in Sources */,
+				3C9EE70B2386B17400B8B448 /* OptionSelectorViewController.swift in Sources */,
+				6CBE730A235DDDAA0048A1DC /* LoginView.swift in Sources */,
+				6C8B9A0F2365DC5A00EA950C /* MenuView.swift in Sources */,
+				6CE30E372369ACC6002C04D7 /* ValidationStrategy.swift in Sources */,
+				6CFFC7AE236312EA005D8D2F /* TextFieldCell.swift in Sources */,
+				6C339B2B2327EAB300A376ED /* FloatingView.swift in Sources */,
+				3C383079234636BA0034F315 /* GarageAnnotationView.swift in Sources */,
+				6C339B292327DBC200A376ED /* CircleView.swift in Sources */,
+				3C811E61232F025E0075AD49 /* FloatingViewPositioningDelegate.swift in Sources */,
+				3C10C96D23180028001BDDB6 /* RangeLocation.swift in Sources */,
+				6C8B9A0B2365CFFC00EA950C /* ImagePickerTool+UIImagePickerControllerDelegate.swift in Sources */,
+				6CF013D0238E9E13005C6AD0 /* UpdateParkingStatusDelegate.swift in Sources */,
+				3C811E492327BE5B0075AD49 /* GarageGalleryView.swift in Sources */,
+				6C13B39E237052F900F25A34 /* PagesIntroViewController.swift in Sources */,
+				6CFFC7A223624E67005D8D2F /* LoadingView.swift in Sources */,
+				6C24E17A23461F6C007EE981 /* UIButton+Extension.swift in Sources */,
+				3C811E5B232A75C90075AD49 /* CircularButton.swift in Sources */,
+				6CFFC7AC2363121B005D8D2F /* TextFieldType.swift in Sources */,
+				6C8B9A132365E5DC00EA950C /* UINavigationController+Extension.swift in Sources */,
+				6C24E17C23461F7B007EE981 /* UIStackView+Extension.swift in Sources */,
+				6C371EE723674A2800EF9BE7 /* GarageHistoryView.swift in Sources */,
+				6C67062F2358AC7200651C4A /* GarageAnnotation.swift in Sources */,
+				6C5AD4E323157162001F14A0 /* SearchResultViewController.swift in Sources */,
+				3C10C909231016DE001BDDB6 /* MapView.swift in Sources */,
+				6C8B9A112365DC6A00EA950C /* MenuViewController.swift in Sources */,
+				6CFFC7C8236497DE005D8D2F /* KeyScroller.swift in Sources */,
+				3C8CB14923609DEE00621BB3 /* GarageFinderModel.xcdatamodeld in Sources */,
+				6CBE730C235DDDB60048A1DC /* LoginViewController.swift in Sources */,
+				3C20C39C233BB29F00182CB3 /* RentingDetailsCell.swift in Sources */,
+				6C5AD4E623157A5A001F14A0 /* SearchResultCell.swift in Sources */,
+				3C10C8D3230AE450001BDDB6 /* AppDelegate.swift in Sources */,
+				6CBE7308235A5C8C0048A1DC /* UIAlertController+Extension.swift in Sources */,
+				6C13B39923704E7F00F25A34 /* FirstPageIntroView.swift in Sources */,
+				6CFFC7C623649059005D8D2F /* String+isNumber.swift in Sources */,
+				6C8B9A152365EB3C00EA950C /* TitleMenuView.swift in Sources */,
+				6CE30E392369ACC6002C04D7 /* FieldValidator.swift in Sources */,
+				6CFFC7C123649059005D8D2F /* CharacterChain.swift in Sources */,
+				3C811E452327BE130075AD49 /* GarageInfoView.swift in Sources */,
+				6C13B3A223705FD400F25A34 /* ThirdPageIntroView.swift in Sources */,
+				6C8B9A0A2365CFFC00EA950C /* ImageResult.swift in Sources */,
+				3C20C37C23311F7200182CB3 /* RatingTableViewCell.swift in Sources */,
+				3C10C96F23194F6B001BDDB6 /* ToolboxView.swift in Sources */,
+				6C8B9A0D2365CFFC00EA950C /* ImagePickerSourceType.swift in Sources */,
+				3C55F216236C7E9200CBFDB9 /* FavoriteType.swift in Sources */,
+				3C10C9482316A3AA001BDDB6 /* CLLocationCoordinate2D+Extension.swift in Sources */,
+				6C81DF5A237C430300EA3373 /* PayMethodView.swift in Sources */,
+				6C5899102333C92D000DA4C2 /* FloatingTableViewDataSource.swift in Sources */,
+				3C55F214236C6FAA00CBFDB9 /* ParkingStatusDelegate.swift in Sources */,
+				6C371EEB23674B5500EF9BE7 /* GarageHistoryViewController.swift in Sources */,
+				6CCB1545232A6BDF002B42A1 /* FavGaragesTableViewCell.swift in Sources */,
+				3C8CB14D2361C8CE00621BB3 /* CoreDataManager.swift in Sources */,
+				3C38308823497FFD0034F315 /* NumberFormatter+Extension.swift in Sources */,
+				6C8B9A0C2365CFFC00EA950C /* ImagePickerTool.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C10C8ED230AE7D2001BDDB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C10C9662316A828001BDDB6 /* URLSessionExtension.swift in Sources */,
+				3C10C9682316A828001BDDB6 /* URLRequestExtension.swift in Sources */,
+				3C10C9612316A828001BDDB6 /* URLSessionProvider.swift in Sources */,
+				3C10C9672316A828001BDDB6 /* URLComponentsExtension.swift in Sources */,
+				3C10C9692316A828001BDDB6 /* CodableExtension.swift in Sources */,
+				3C10C96A2316A828001BDDB6 /* Service.swift in Sources */,
+				6CBE731E235DFC360048A1DC /* Response.swift in Sources */,
+				3C54CDEF2385798F00EFF918 /* NSLayoutConstrait.Attribute+CaseIterable.swift in Sources */,
+				6C8C9A55234F5C5700071144 /* CustomCodable.swift in Sources */,
+				3C54CDED2385795700EFF918 /* UIView+Extension.swift in Sources */,
+				3C10C9652316A828001BDDB6 /* NetworkError.swift in Sources */,
+				3C10C9622316A828001BDDB6 /* ParametersEncoding.swift in Sources */,
+				3C10C9632316A828001BDDB6 /* HTTPMethod.swift in Sources */,
+				3C10C9642316A828001BDDB6 /* Task.swift in Sources */,
+				3C10C95F2316A828001BDDB6 /* SmartConstraints.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C70BD70238588CD00E1FC72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C70BD77238588CD00E1FC72 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C10C8F7230AE7D2001BDDB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C10C8F0230AE7D2001BDDB6 /* GarageFinderFramework */;
+			targetProxy = 3C10C8F6230AE7D2001BDDB6 /* PBXContainerItemProxy */;
+		};
+		6C70BD7A238588CD00E1FC72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C70BD73238588CD00E1FC72 /* OneSignalNotificationServiceExtension */;
+			targetProxy = 6C70BD79238588CD00E1FC72 /* PBXContainerItemProxy */;
+		};
+		6CD2A820231D3F9200A4782D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C10C8F0230AE7D2001BDDB6 /* GarageFinderFramework */;
+			targetProxy = 6CD2A81F231D3F9200A4782D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C10C8DE230AE453001BDDB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C10C8DF230AE453001BDDB6 /* Base */,
+				3CF6B9ED237AF07A002C8B24 /* pt-BR */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C10C8E2230AE453001BDDB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C10C8E3230AE453001BDDB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C10C8E5230AE453001BDDB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2D80B2123205E783F6C39C7 /* Pods-GarageFinder.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GarageFinder/GarageFinder.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H5762RAVC8;
+				INFOPLIST_FILE = GarageFinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4;
+				"OTHER_SWIFT_FLAGS[arch=*]" = "";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.GarageFinderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C10C8E6230AE453001BDDB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FBF1C7D3989842A52666278 /* Pods-GarageFinder.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GarageFinder/GarageFinder.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H5762RAVC8;
+				INFOPLIST_FILE = GarageFinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.GarageFinderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C10C8FB230AE7D2001BDDB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F296F1403758F2CCCAC56E95 /* Pods-GarageFinderFramework.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = H5762RAVC8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GarageFinderFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jpedroarag.GarageFinderFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_UIKITFORMAC = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3C10C8FC230AE7D2001BDDB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CF1C3EB3F50C59DEB7F7468 /* Pods-GarageFinderFramework.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = H5762RAVC8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GarageFinderFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jpedroarag.GarageFinderFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_UIKITFORMAC = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C70BD7D238588CD00E1FC72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39A9AAFADD058130D3D0E55B /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H5762RAVC8;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.GarageFinder.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6C70BD7E238588CD00E1FC72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56826C9898DBDF6196E05955 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H5762RAVC8;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.GarageFinder.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C10C8CA230AE450001BDDB6 /* Build configuration list for PBXProject "GarageFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C10C8E2230AE453001BDDB6 /* Debug */,
+				3C10C8E3230AE453001BDDB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C10C8E4230AE453001BDDB6 /* Build configuration list for PBXNativeTarget "GarageFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C10C8E5230AE453001BDDB6 /* Debug */,
+				3C10C8E6230AE453001BDDB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C10C8FA230AE7D2001BDDB6 /* Build configuration list for PBXNativeTarget "GarageFinderFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C10C8FB230AE7D2001BDDB6 /* Debug */,
+				3C10C8FC230AE7D2001BDDB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C70BD7C238588CD00E1FC72 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C70BD7D238588CD00E1FC72 /* Debug */,
+				6C70BD7E238588CD00E1FC72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3C8CB14723609DEE00621BB3 /* GarageFinderModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3C8CB14823609DEE00621BB3 /* Model.xcdatamodel */,
+			);
+			currentVersion = 3C8CB14823609DEE00621BB3 /* Model.xcdatamodel */;
+			path = GarageFinderModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3C10C8C7230AE450001BDDB6 /* Project object */;
+}

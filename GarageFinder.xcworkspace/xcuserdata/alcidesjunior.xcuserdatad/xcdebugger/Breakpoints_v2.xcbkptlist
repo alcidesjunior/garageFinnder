@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B3E31220-4A38-4EA0-AAB8-BC717E7D62FF"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ADE011D7-E2A6-4C5E-A654-B712F79369DD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GarageFinder/View/SignUpView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "init(isEditingProfile:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D31F1C3A-64FB-4038-ABB7-ED094ACBF8FE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GarageFinder/View/SignUpView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "init(isEditingProfile:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B66859F-CA53-45A2-A44B-561CBFDFD32C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GarageFinder/View/Component/TextFieldsTable/TextFieldsTableView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "getFields()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29D3B49C-DB2B-48C3-940E-CA331AA6DCD8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GarageFinder/Controller/SearchResultViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "didUpdateSearch(text:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "76821BD8-E995-4E2C-B24E-C1C513F927DC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GarageFinder/Controller/SearchResultViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "didUpdateSearch(text:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "76821BD8-E995-4E2C-B24E-C1C513F927DC - d4d8ac7c6dd8240b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GarageFinder.SearchResultViewController.didUpdateSearch(text: Swift.String) -&gt; ()"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/Controller/SearchResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "272">
+               </Location>
+               <Location
+                  uuid = "76821BD8-E995-4E2C-B24E-C1C513F927DC - 67b1349fbbddb48a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.MKLocalSearchResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GarageFinder.SearchResultViewController.didUpdateSearch(text: Swift.String) -&gt; ()"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/Controller/SearchResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "76821BD8-E995-4E2C-B24E-C1C513F927DC - d4d8ac7c6dd8240b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GarageFinder.SearchResultViewController.didUpdateSearch(text: Swift.String) -&gt; ()"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/Controller/SearchResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "311">
+               </Location>
+               <Location
+                  uuid = "76821BD8-E995-4E2C-B24E-C1C513F927DC - 67b1349fbbddb48a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.MKLocalSearchResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GarageFinder.SearchResultViewController.didUpdateSearch(text: Swift.String) -&gt; ()"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/Controller/SearchResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7D2E858A-8D41-4CD3-BA09-B6387C5FAE12"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GarageFinder/Controller/SearchResultViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "didUpdateSearch(text:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7D2E858A-8D41-4CD3-BA09-B6387C5FAE12 - d4d8ac7c6dd8240b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GarageFinder.SearchResultViewController.didUpdateSearch(text: Swift.String) -&gt; ()"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/Controller/SearchResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "272">
+               </Location>
+               <Location
+                  uuid = "7D2E858A-8D41-4CD3-BA09-B6387C5FAE12 - 67b1349fbbddb48a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.MKLocalSearchResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GarageFinder.SearchResultViewController.didUpdateSearch(text: Swift.String) -&gt; ()"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/Controller/SearchResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "7D2E858A-8D41-4CD3-BA09-B6387C5FAE12 - d4d8ac7c6dd8240b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GarageFinder.SearchResultViewController.didUpdateSearch(text: Swift.String) -&gt; ()"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/Controller/SearchResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "311">
+               </Location>
+               <Location
+                  uuid = "7D2E858A-8D41-4CD3-BA09-B6387C5FAE12 - 67b1349fbbddb48a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.MKLocalSearchResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GarageFinder.SearchResultViewController.didUpdateSearch(text: Swift.String) -&gt; ()"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/Controller/SearchResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6CF3C07F-EBDF-48AE-95D7-D66181F2AF52"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GarageFinder/Controller/SearchResultViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "didUpdateSearch(text:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6CF3C07F-EBDF-48AE-95D7-D66181F2AF52 - 67b1349fbbddb448"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.MKLocalSearchResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GarageFinder.SearchResultViewController.didUpdateSearch(text: Swift.String) -&gt; ()"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/Controller/SearchResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "480">
+               </Location>
+               <Location
+                  uuid = "6CF3C07F-EBDF-48AE-95D7-D66181F2AF52 - 67b1349fbbddb448"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.MKLocalSearchResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GarageFinder.SearchResultViewController.didUpdateSearch(text: Swift.String) -&gt; ()"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/Controller/SearchResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "500">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "07EC4B2E-4FA2-447A-AC62-61CECB2C6853"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GarageFinder/Controller/SearchResultViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "didUpdateSearch(text:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "07EC4B2E-4FA2-447A-AC62-61CECB2C6853 - 67b1349fbbddb771"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.MKLocalSearchResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GarageFinder.SearchResultViewController.didUpdateSearch(text: Swift.String) -&gt; ()"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/Controller/SearchResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "311">
+               </Location>
+               <Location
+                  uuid = "07EC4B2E-4FA2-447A-AC62-61CECB2C6853 - 67b1349fbbddb771"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.MKLocalSearchResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GarageFinder.SearchResultViewController.didUpdateSearch(text: Swift.String) -&gt; ()"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/Controller/SearchResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "308">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0DACEE11-1C6A-4492-B931-34F5F6EB6494"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GarageFinder/Controller/SearchResultViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "didUpdateSearch(text:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0DACEE11-1C6A-4492-B931-34F5F6EB6494 - 67b1349fbbddb7cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.MKLocalSearchResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GarageFinder.SearchResultViewController.didUpdateSearch(text: Swift.String) -&gt; ()"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/Controller/SearchResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "0DACEE11-1C6A-4492-B931-34F5F6EB6494 - 67b1349fbbddb7cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.MKLocalSearchResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GarageFinder.SearchResultViewController.didUpdateSearch(text: Swift.String) -&gt; ()"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/Controller/SearchResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CC19BF83-9851-4D53-84F7-CCD2D9D2AF4A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GarageFinder/Controller/SearchResultViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CC19BF83-9851-4D53-84F7-CCD2D9D2AF4A - e96594bec519bb8d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GarageFinder.SearchResultViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/Controller/SearchResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "153">
+               </Location>
+               <Location
+                  uuid = "CC19BF83-9851-4D53-84F7-CCD2D9D2AF4A - e96594bec519bb8d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GarageFinder.SearchResultViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/Controller/SearchResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "148">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C8131CB3-0D86-4A1B-9A19-D6170FE9A10D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GarageFinder/View/SearchResultCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "loadData(name:address:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C8131CB3-0D86-4A1B-9A19-D6170FE9A10D - c0e64bed769c1d42"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GarageFinder.SearchResultViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/View/SearchResultCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "408">
+               </Location>
+               <Location
+                  uuid = "C8131CB3-0D86-4A1B-9A19-D6170FE9A10D - c0e64bed769c1d42"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GarageFinder.SearchResultViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/View/SearchResultCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "368">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "582C97D2-7380-4123-B333-6372442F7DB0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GarageFinder/View/SearchResultCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "loadData(name:address:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "582C97D2-7380-4123-B333-6372442F7DB0 - c0e64bed769c1d61"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GarageFinder.SearchResultViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/View/SearchResultCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "488">
+               </Location>
+               <Location
+                  uuid = "582C97D2-7380-4123-B333-6372442F7DB0 - c0e64bed769c1d61"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GarageFinder.SearchResultViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/View/SearchResultCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "436">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F338F715-3A2C-4A78-AD1F-1C2036F019FF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GarageFinder/Extension/UIViewController+Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "dismissVC()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F338F715-3A2C-4A78-AD1F-1C2036F019FF - 304aabaa033d3fcd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc __C.UIViewController.dismissVC() -&gt; ()"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/Extension/UIViewController+Extension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  uuid = "F338F715-3A2C-4A78-AD1F-1C2036F019FF - 304aabaa033d3fcd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc __C.UIViewController.dismissVC() -&gt; ()"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/Extension/UIViewController+Extension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "34D2F0B3-15DE-4EED-AF79-BBE776648747"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GarageFinder/Model/Garage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "init(id:description:parkingSpaces:busySpaces:price:average:userId:lat:long:comments:pictures:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "34D2F0B3-15DE-4EED-AF79-BBE776648747 - 496810f444554238"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GarageFinder.Garage.init(id: Swift.Int, description: Swift.Optional&lt;Swift.String&gt;, parkingSpaces: Swift.Int, busySpaces: Swift.Int, price: Swift.Double, average: Swift.Optional&lt;Swift.Float&gt;, userId: Swift.Optional&lt;Swift.Int&gt;, comments: Swift.Array&lt;GarageFinder.Comment&gt;, pictures: Swift.Optional&lt;Swift.Array&lt;__C.UIImage&gt;&gt;) -&gt; GarageFinder.Garage"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/Model/Garage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "34D2F0B3-15DE-4EED-AF79-BBE776648747 - 33bdee5acb03056c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GarageFinder.Garage.init(id: Swift.Int, description: Swift.Optional&lt;Swift.String&gt;, parkingSpaces: Swift.Int, busySpaces: Swift.Int, price: Swift.Double, average: Swift.Optional&lt;Swift.Float&gt;, userId: Swift.Optional&lt;Swift.Int&gt;, lat: Swift.Double, long: Swift.Double, comments: Swift.Array&lt;GarageFinder.Comment&gt;, pictures: Swift.Optional&lt;Swift.Array&lt;__C.UIImage&gt;&gt;) -&gt; GarageFinder.Garage"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/Model/Garage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "41DD706D-2115-46C9-91D3-9524E73D04D0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GarageFinder/Model/GarageAnnotation.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "init(id:parkingSpaces:busySpace:price:lat:long:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "41DD706D-2115-46C9-91D3-9524E73D04D0 - fb0516caafe10199"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[0] = Owned To Guaranteed, Arg[1] = Dead&gt; of GarageFinder.GarageAnnotation.__allocating_init(fromGarage: GarageFinder.Garage) -&gt; Swift.Optional&lt;GarageFinder.GarageAnnotation&gt;"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/Model/GarageAnnotation.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "227">
+               </Location>
+               <Location
+                  uuid = "41DD706D-2115-46C9-91D3-9524E73D04D0 - fb0516caafe10199"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[0] = Owned To Guaranteed, Arg[1] = Dead&gt; of GarageFinder.GarageAnnotation.__allocating_init(fromGarage: GarageFinder.Garage) -&gt; Swift.Optional&lt;GarageFinder.GarageAnnotation&gt;"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/Model/GarageAnnotation.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "184">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "61767449-CE6A-46CA-AF8A-55B7F5B9601B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GarageFinder/Model/Address.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "init(id:zip:street:number:complement:city:uf:coordinate:userId:garageId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "71188569-7EC8-42E8-88AD-F53589EBEB79"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GarageFinder/Model/Address.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "encode(to:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "71188569-7EC8-42E8-88AD-F53589EBEB79 - bca578591acac1de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GarageFinder.Address.encode(to: Swift.Encoder) throws -&gt; ()"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/Model/Address.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "492">
+               </Location>
+               <Location
+                  uuid = "71188569-7EC8-42E8-88AD-F53589EBEB79 - bca578591acac103"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GarageFinder.Address.encode(to: Swift.Encoder) throws -&gt; ()"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/Model/Address.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "138"
+                  endingLineNumber = "138"
+                  offsetFromSymbolStart = "280">
+               </Location>
+               <Location
+                  uuid = "71188569-7EC8-42E8-88AD-F53589EBEB79 - bca578591acac103"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GarageFinder.Address.encode(to: Swift.Encoder) throws -&gt; ()"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/Model/Address.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "138"
+                  endingLineNumber = "138"
+                  offsetFromSymbolStart = "636">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3C549312-5ACD-4F64-BC3A-032AA6776155"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GarageFinder/Model/Address.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "encode(to:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3C549312-5ACD-4F64-BC3A-032AA6776155 - bca578591acac1de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GarageFinder.Address.encode(to: Swift.Encoder) throws -&gt; ()"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/Model/Address.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "492">
+               </Location>
+               <Location
+                  uuid = "3C549312-5ACD-4F64-BC3A-032AA6776155 - bca578591acac1de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GarageFinder.Address.encode(to: Swift.Encoder) throws -&gt; ()"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/Model/Address.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "628">
+               </Location>
+               <Location
+                  uuid = "3C549312-5ACD-4F64-BC3A-032AA6776155 - bca578591acac1bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GarageFinder.Address.encode(to: Swift.Encoder) throws -&gt; ()"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/Model/Address.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
+                  offsetFromSymbolStart = "580">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9A8EC0F1-9C6D-49C4-8631-A14F160817F7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GarageFinderFramework/Network/SessionProvider/URLSessionProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "handleResult(result:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D31F0F50-CF1F-41EE-810F-DDD07F266BD3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GarageFinderFramework/Network/SessionProvider/URLSessionProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "handleResult(result:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "221A7341-45E6-48BD-90B5-0A5B1CBF25D6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GarageFinder/Model/GarageAnnotation.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "init?(fromGarage:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "221A7341-45E6-48BD-90B5-0A5B1CBF25D6 - fb0516caafe13e27"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[0] = Owned To Guaranteed, Arg[1] = Dead&gt; of GarageFinder.GarageAnnotation.__allocating_init(fromGarage: GarageFinder.Garage) -&gt; Swift.Optional&lt;GarageFinder.GarageAnnotation&gt;"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/Model/GarageAnnotation.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  uuid = "221A7341-45E6-48BD-90B5-0A5B1CBF25D6 - fb0516caafe13e27"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[0] = Owned To Guaranteed, Arg[1] = Dead&gt; of GarageFinder.GarageAnnotation.__allocating_init(fromGarage: GarageFinder.Garage) -&gt; Swift.Optional&lt;GarageFinder.GarageAnnotation&gt;"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/Model/GarageAnnotation.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C421532-5D54-4AF2-A9E0-21C707439941"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GarageFinder/Controller/MapViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "loadGarages()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "92A29C74-237D-4650-A022-573AA1F3B093"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GarageFinderFramework/Network/SessionProvider/URLSessionProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "handleResult(result:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A96E6B33-6E4C-4E39-B5CD-7D80FC7F6392"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GarageFinder/Model/Address.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "init(from:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A96E6B33-6E4C-4E39-B5CD-7D80FC7F6392 - 2b489cfb677ef086"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[1] = Dead&gt; of GarageFinder.Address.init(from: Swift.Decoder) throws -&gt; GarageFinder.Address"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/Model/Address.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "A96E6B33-6E4C-4E39-B5CD-7D80FC7F6392 - 2b489cfb677ef086"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[1] = Dead&gt; of GarageFinder.Address.init(from: Swift.Decoder) throws -&gt; GarageFinder.Address"
+                  moduleName = "GarageFinder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alcidesjunior/Documents/GarageFinder/GarageFinder/Model/Address.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110"
+                  offsetFromSymbolStart = "496">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
